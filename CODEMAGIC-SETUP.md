@@ -124,6 +124,35 @@ Replace with the numeric App Store Connect Apple ID from ASC → App Information
 
 ---
 
+## When Apple ID arrives (exact edit)
+
+Do this **only after** ASC → My Apps → **Brain Kit** → App Information shows the numeric **Apple ID**.
+
+1. Open repo file: **`codemagic.yaml`** (repo root).
+2. Find the loud placeholder (search): `REPLACE_AFTER_ASC_CREATE`
+   - As of this pack: **`codemagic.yaml` line ~38** (`APP_STORE_APPLE_ID: "REPLACE_AFTER_ASC_CREATE"` under `vars:`). If the file shifts, search wins over line number.
+3. **Exact field to edit:** under workflow `brain-kit-ios` → `environment` → `vars` → **`APP_STORE_APPLE_ID`**
+4. Change:
+
+   ```yaml
+   APP_STORE_APPLE_ID: "REPLACE_AFTER_ASC_CREATE"
+   ```
+
+   to:
+
+   ```yaml
+   APP_STORE_APPLE_ID: "YOUR_NUMERIC_ASC_APPLE_ID"
+   ```
+
+   (digits only inside the quotes — no Brain Builder Apple ID, no invented Brain Kit ID.)
+
+5. Commit + push to `Muvmarshall/brain-kit-app-store`, then run Codemagic workflow **Brain Kit iOS** (`brain-kit-ios`).
+6. Top-of-file checklist in `codemagic.yaml` has the same paste steps for Mike.
+
+Until this value is numeric, build-number bump via `app-store-connect get-latest-*-build-number` will not see a real app (script falls back toward `0` / `1`). Publishing to TestFlight still needs ASC app + integration + signing.
+
+---
+
 ## 8. Run the first build
 
 1. Codemagic → start workflow **Brain Kit iOS**.

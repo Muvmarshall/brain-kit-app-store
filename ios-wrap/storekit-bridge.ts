@@ -13,6 +13,8 @@ export const PRODUCT_IDS = {
   monthly: 'com.brainkit.complete.monthly',
 } as const;
 
+// Never hardcode dollar amounts here — only product ID constants + TBD comments below.
+
 /** TBD — never invent dollar amounts in docs or UI until Mike/Grok approve. */
 export const PRODUCT_PRICE_STATUS = {
   yearly: 'TBD — price not locked',

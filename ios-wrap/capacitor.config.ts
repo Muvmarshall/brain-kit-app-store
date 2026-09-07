@@ -4,6 +4,8 @@ import type { CapacitorConfig } from '@capacitor/cli';
  * Brain Kit default: bundled www/ (no remote server.url).
  * Optional: set REMOTE_URL=https://… when Grok hosts a live preview later.
  * (Do not invent a grok.me host — none exists for Brain Kit yet.)
+ * Path: omit REMOTE_URL → bundled www/; set REMOTE_URL=https://… → server.url + cleartext:false.
+ * See README.md → "REMOTE_URL path".
  */
 const remoteUrl = (process.env.REMOTE_URL || '').trim();
 

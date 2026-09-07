@@ -19,8 +19,11 @@ Thin Capacitor shell. **Default = bundled `www/`** (sync of `../preview/brain-ki
 | `package.json` | Capacitor 7 deps (`brain-kit-ios`) |
 | `capacitor.config.ts` | Bundled www; optional `REMOTE_URL` |
 | `www/` | Copy of preview/brain-kit for bundled mode |
-| `storekit-bridge.ts` (+ stub re-export) | Placeholder until real StoreKit plugin |
+| `www/privacy.html` / `terms.html` / `support.html` | **PLACEHOLDER** legal/support pages (email only until live HTTPS) |
+| `storekit-bridge.ts` (+ stub re-export) | Product ID constants only — no dollar amounts |
 | `STOREKIT-NEXT.md` | Capgo / TestFlight / parent-gate plan |
+| `PrivacyInfo.xcprivacy` | Stub privacy manifest (empty required-reason APIs) |
+| `PRIVACYINFO-STUB.md` | How/when the stub is copied into generated `ios/` |
 | `README.md` | This file |
 | `.gitignore` | Ignores `node_modules/` and generated `ios/` |
 
@@ -28,14 +31,19 @@ Thin Capacitor shell. **Default = bundled `www/`** (sync of `../preview/brain-ki
 
 Mike has **no Mac**. Generate `ios/` on **Codemagic** (see repo-root `codemagic.yaml` and `CODEMAGIC-SETUP.md`), not on Linux.
 
-Full ASC draft: [`../ASC-PLAN.md`](../ASC-PLAN.md).
+Full ASC draft: [`../ASC-PLAN.md`](../ASC-PLAN.md). Kids 1.3 notes template: [`../APP-REVIEW-NOTES-1.3-TEMPLATE.md`](../APP-REVIEW-NOTES-1.3-TEMPLATE.md).
 
-## How to run (Linux)
+## REMOTE_URL path (clear)
+
+1. **Default (production intent for first TestFlight):** omit `REMOTE_URL` → Capacitor loads bundled `webDir: 'www'` (no `server.url`).
+2. **Optional hosted preview later:** set `REMOTE_URL=https://…` in the Codemagic env (or shell) before `npx cap sync ios`. `capacitor.config.ts` then sets `server.url` + `cleartext: false` (HTTPS only).
+3. Do **not** invent a grok.me (or any) host — none exists for Brain Kit yet. When remote is enabled, disclose the host in Privacy Policy + Guideline 1.3 answers.
 
 ```bash
 cd ios-wrap
 npm install
-# Do NOT expect `npx cap add ios` to succeed without a Mac.
+# Bundled (default):
+#   npx cap sync ios   # on Codemagic Mac only
 # Optional hosted mode later:
 #   REMOTE_URL=https://your-host.example npx cap sync ios
 ```
@@ -44,11 +52,38 @@ Re-sync web assets from preview:
 
 ```bash
 cp -a ../preview/brain-kit/. ./www/
+# Re-add PLACEHOLDER legal pages if preview overwrite removes them:
+#   privacy.html terms.html support.html stay under www/ in this repo
 ```
+
+## ITSAppUsesNonExemptEncryption
+
+Brain Kit uses only HTTPS / system TLS (no custom crypto). Codemagic’s “Ensure ios platform exists” step sets:
+
+`ITSAppUsesNonExemptEncryption` = **`false`**
+
+in the generated `ios/App/App/Info.plist` so TestFlight export-compliance questions stay consistent. Do not flip this to `true` unless you add non-exempt encryption.
+
+## PrivacyInfo.xcprivacy
+
+Stub file: `PrivacyInfo.xcprivacy` (tracking off; collected types empty; **required-reason API list empty/minimal** for local-first). It is **not** inside `ios/` until first Cap sync — see `PRIVACYINFO-STUB.md`. On Codemagic after `cap add ios`, copy the stub into `ios/App/App/` and ensure it is in the App target.
+
+## Info.plist purpose strings (when CI adds `ios/`)
+
+Capacitor’s generated Info.plist may need usage-description keys only if a plugin touches protected APIs. For the current local-first shell (no camera/mic/photos/contacts/location plugins):
+
+| Key | When needed | Note |
+| --- | --- | --- |
+| `NSCameraUsageDescription` | Only if a plugin uses camera | Do not add preemptively |
+| `NSPhotoLibraryUsageDescription` | Only if photo picker | Do not add preemptively |
+| `NSMicrophoneUsageDescription` | Only if mic | Do not add preemptively |
+| `NSUserTrackingUsageDescription` | Never for Kids / no ATT | Do not add |
+
+When adding Cap plugins on Codemagic, add a **short, honest** purpose string in the same CI script that touches Info.plist — never copy Brain Builder strings blindly.
 
 ## StoreKit bridge still required
 
-Production needs real **StoreKit 2** via Capgo native-purchases (or equivalent). Parent PIN **before** purchase and Restore. Never grant Complete from preview unlock in the store binary. See `STOREKIT-NEXT.md`.
+Production needs real **StoreKit 2** via Capgo `@capgo/native-purchases` (or equivalent). Parent PIN **before** purchase and Restore. Never grant Complete from preview unlock in the store binary. `storekit-bridge.ts` exports **product ID constants only** + TBD price status comments — **no hardcoded dollar amounts**. See `STOREKIT-NEXT.md`.
 
 ## ATS / config notes
 

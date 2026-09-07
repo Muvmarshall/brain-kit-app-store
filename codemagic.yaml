@@ -1,9 +1,23 @@
-# Brain Kit — Codemagic starter (iOS Capacitor)
+# =============================================================================
+# Brain Kit — Codemagic (iOS Capacitor) — MIKE PASTE CHECKLIST (top of file)
+# =============================================================================
 # Place at GIT REPO ROOT when connecting Codemagic.
-# App Store Apple ID: REPLACE_AFTER_ASC_CREATE (ASC → App Information after create)
+#
+# BEFORE first successful TestFlight build, Mike must:
+#   [ ] 1. ASC app record created for Brain Kit (bundle com.mikemarshall.brainkit)
+#   [ ] 2. Copy numeric App Store Apple ID from ASC → App Information
+#   [ ] 3. Replace APP_STORE_APPLE_ID below: REPLACE_AFTER_ASC_CREATE → that number
+#          >>> EXACT EDIT: this file, environment.vars.APP_STORE_APPLE_ID (search REPLACE_AFTER_ASC_CREATE)
+#   [ ] 4. Codemagic Team integration named exactly: Brain Kit Codemagic
+#   [ ] 5. Signing: App Store profile for com.mikemarshall.brainkit
+#   [ ] 6. Confirm workflow id/name: brain-kit-ios / "Brain Kit iOS"
+#   [ ] 7. NO Brain Builder IDs in this file (no Brain Builder bundle IDs, Plus product IDs, or BB App Store Apple IDs)
+#
+# App Store Apple ID: REPLACE_AFTER_ASC_CREATE  <<< LOUD — do not ship builds until filled
 # Codemagic Team integration name must match integrations.app_store_connect below.
 # Never put Apple passwords or .p8 contents in this file — use Codemagic Team integrations only.
 # PRICES NOT LOCKED — do not invent dollars for Complete IAP.
+# =============================================================================
 
 workflows:
   brain-kit-ios:
@@ -17,6 +31,9 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.mikemarshall.brainkit
       vars:
+        # !!!!! REPLACE_AFTER_ASC_CREATE — paste numeric ASC Apple ID here after create !!!!!
+        # Do NOT leave this placeholder for a real TestFlight publish that needs build-number bump.
+        # See CODEMAGIC-SETUP.md → "When Apple ID arrives" for the exact line to edit.
         APP_STORE_APPLE_ID: "REPLACE_AFTER_ASC_CREATE"
         XCODE_WORKSPACE: App.xcworkspace
         XCODE_SCHEME: App
@@ -34,6 +51,11 @@ workflows:
           if [ -d ios-wrap ]; then cd ios-wrap; fi
           if [ ! -d ios ]; then npx cap add ios; fi
           npx cap sync ios
+          # Privacy manifest stub (local-first) — copy if Cap did not already include it
+          if [ -f PrivacyInfo.xcprivacy ] && [ -d ios/App/App ]; then
+            cp -n PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy 2>/dev/null \
+              || cp PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy
+          fi
           # Apple Spring 2027: MinimumOSVersion must be 15.0+
           /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion 15.0" ios/App/App/Info.plist 2>/dev/null || true
           # HTTPS-only / system TLS: declare exempt encryption for TestFlight compliance
@@ -55,6 +77,7 @@ workflows:
           if [ -d ios-wrap ]; then cd ios-wrap; fi
           cd ios/App
           # Take the higher of App Store + TestFlight so we never collide with an uploaded build
+          # Requires APP_STORE_APPLE_ID numeric — fails soft to 0 if still REPLACE_AFTER_ASC_CREATE
           AS=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID" || echo 0)
           TF=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" || echo 0)
           AS=${AS:-0}; TF=${TF:-0}

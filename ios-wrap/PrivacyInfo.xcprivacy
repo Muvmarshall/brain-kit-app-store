@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Brain Kit — PrivacyInfo.xcprivacy stub (local-first prototype).
+  Copy into ios/App/App/ on first Cap sync / Codemagic and add to the Xcode target.
+  See PRIVACYINFO-STUB.md. Required-reason API arrays are empty/minimal until a
+  dependency declares a needed reason; do not invent reasons.
+-->
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array/>
+</dict>
+</plist>
