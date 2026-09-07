@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+ios-wrap/ios/
+.env
+.env.*
+brain-kit-preview.zip

@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.DS_Store
+ios/
+# ios/ is generated on Codemagic — commit only if Mike chooses to vendor it

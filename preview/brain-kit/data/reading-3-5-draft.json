@@ -1,0 +1,6298 @@
+[
+  {
+    "id": "read-3-mi-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Main idea & detail",
+    "skill_name": "State the main idea of a short informational paragraph",
+    "standard_code": "ELA.3.R.2.2 | RI.3.2",
+    "standard_codes": [
+      "ELA.3.R.2.2",
+      "RI.3.2"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "The main idea is what almost every sentence is doing. Details prove it. A title that names one object is usually too small.",
+      "worked_example": "Bees visit flowers, carry pollen, and make honey. Main idea: how bees work — not “a yellow flower.”"
+    },
+    "question_bank": [
+      {
+        "id": "r35-mi3-q1",
+        "prompt": "A paragraph says bees visit flowers, carry pollen, and make honey. The main idea is…",
+        "choices": [
+          "How bees work with flowers",
+          "One yellow flower",
+          "A rainy field"
+        ],
+        "answer": "How bees work with flowers",
+        "difficulty": 1,
+        "hint": "What is almost every sentence about?"
+      },
+      {
+        "id": "r35-mi3-q2",
+        "prompt": "Sentences list a helmet, bright vest, and looking both ways. The main idea is…",
+        "choices": [
+          "How to bike safely",
+          "A red helmet",
+          "A long hill"
+        ],
+        "answer": "How to bike safely",
+        "difficulty": 2,
+        "hint": "The list supports one point."
+      },
+      {
+        "id": "r35-mi3-q3",
+        "prompt": "A text tells how a seed needs water, soil, and light. Main idea?",
+        "choices": [
+          "What a seed needs to grow",
+          "A watering can",
+          "A brown pot"
+        ],
+        "answer": "What a seed needs to grow",
+        "difficulty": 1,
+        "hint": "Group the details."
+      },
+      {
+        "id": "r35-mi3-q4",
+        "prompt": "Which sentence is a detail, not the main idea?",
+        "choices": [
+          "Owls hunt at night.",
+          "Owls have sharp talons.",
+          "Night birds have tools for hunting."
+        ],
+        "answer": "Owls have sharp talons.",
+        "difficulty": 3,
+        "hint": "A detail is one fact."
+      },
+      {
+        "id": "r35-mi3-q5",
+        "prompt": "Title that fits a paragraph about recycling paper, cans, and bottles:",
+        "choices": [
+          "Ways we reuse materials",
+          "One blue bin",
+          "A lunch tray"
+        ],
+        "answer": "Ways we reuse materials",
+        "difficulty": 2,
+        "hint": "The title should cover all three."
+      },
+      {
+        "id": "r35-mi3-q6",
+        "prompt": "Ants carry food, build tunnels, and guard the queen. Main idea?",
+        "choices": [
+          "How an ant colony works",
+          "One crumb",
+          "A picnic"
+        ],
+        "answer": "How an ant colony works",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q7",
+        "prompt": "The park has swings, a slide, and a sandbox. Main idea?",
+        "choices": [
+          "What you can do at the park",
+          "One swing",
+          "A cloudy day"
+        ],
+        "answer": "What you can do at the park",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q8",
+        "prompt": "Wolves hunt together, care for pups, and howl. Main idea?",
+        "choices": [
+          "How wolves live in a pack",
+          "One howl",
+          "A full moon"
+        ],
+        "answer": "How wolves live in a pack",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q9",
+        "prompt": "You brush, floss, and visit the dentist. Main idea?",
+        "choices": [
+          "How to care for teeth",
+          "A red toothbrush",
+          "Candy"
+        ],
+        "answer": "How to care for teeth",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q10",
+        "prompt": "Trains, buses, and bikes move people around a city. Main idea?",
+        "choices": [
+          "Ways people travel in a city",
+          "One ticket",
+          "A tunnel"
+        ],
+        "answer": "Ways people travel in a city",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q11",
+        "prompt": "Frogs lay eggs, tadpoles swim, then frogs hop. Main idea?",
+        "choices": [
+          "The life of a frog",
+          "One lily pad",
+          "A snake"
+        ],
+        "answer": "The life of a frog",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q12",
+        "prompt": "Readers make a guess, check the text, and revise. Main idea?",
+        "choices": [
+          "How to infer while reading",
+          "One picture",
+          "A bookmark"
+        ],
+        "answer": "How to infer while reading",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q13",
+        "prompt": "Maps show roads, rivers, and towns. Main idea?",
+        "choices": [
+          "What a map can show",
+          "One compass rose",
+          "A backpack"
+        ],
+        "answer": "What a map can show",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q14",
+        "prompt": "Chefs chop, simmer, and taste as they cook. Main idea?",
+        "choices": [
+          "How a cook prepares food",
+          "One spoon",
+          "A recipe card only"
+        ],
+        "answer": "How a cook prepares food",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q15",
+        "prompt": "Storms bring wind, rain, and sometimes lightning. Main idea?",
+        "choices": [
+          "What happens in a storm",
+          "One puddle",
+          "A sunny picnic"
+        ],
+        "answer": "What happens in a storm",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q16",
+        "prompt": "The museum shows bones, tools, and old letters. Main idea?",
+        "choices": [
+          "What you can learn at a museum",
+          "One ticket stub",
+          "A gift shop"
+        ],
+        "answer": "What you can learn at a museum",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q17",
+        "prompt": "Players pass, shoot, and play defense. Main idea?",
+        "choices": [
+          "How a team plays the game",
+          "One basketball",
+          "A scoreboard"
+        ],
+        "answer": "How a team plays the game",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q18",
+        "prompt": "Gardeners plant, water, and pull weeds. Main idea?",
+        "choices": [
+          "How to keep a garden growing",
+          "One shovel",
+          "A fence"
+        ],
+        "answer": "How to keep a garden growing",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q19",
+        "prompt": "Firefighters roll hose, climb, and rescue. Main idea?",
+        "choices": [
+          "What firefighters do",
+          "One helmet",
+          "A dalmatian"
+        ],
+        "answer": "What firefighters do",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      },
+      {
+        "id": "r35-mi3-q20",
+        "prompt": "The article lists reduce, reuse, and recycle. Main idea?",
+        "choices": [
+          "Three ways to cut waste",
+          "One bottle",
+          "A slogan"
+        ],
+        "answer": "Three ways to cut waste",
+        "difficulty": 2,
+        "hint": "Name the whole, not one piece."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-voc-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Vocabulary & word study",
+    "skill_name": "Use a restatement or example clue to mean a new word",
+    "standard_code": "ELA.3.V.1.3 | L.3.4.a",
+    "standard_codes": [
+      "ELA.3.V.1.3",
+      "L.3.4.a"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Authors often restate a hard word in the same sentence. Look after a comma or the words “which means.”",
+      "worked_example": "The cavern was vast, stretching farther than we could see. Vast = very large."
+    },
+    "question_bank": [
+      {
+        "id": "r35-cc3-q1",
+        "prompt": "The cavern was vast, stretching farther than we could see. As used here, vast means…",
+        "choices": [
+          "very large",
+          "very loud",
+          "very new"
+        ],
+        "answer": "very large",
+        "difficulty": 1,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q2",
+        "prompt": "She was elated, grinning and bouncing on her toes. As used here, elated means…",
+        "choices": [
+          "very happy",
+          "very tired",
+          "very late"
+        ],
+        "answer": "very happy",
+        "difficulty": 1,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q3",
+        "prompt": "The broth was bland, with almost no flavor. As used here, bland means…",
+        "choices": [
+          "tasteless",
+          "spicy",
+          "frozen"
+        ],
+        "answer": "tasteless",
+        "difficulty": 1,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q4",
+        "prompt": "He spoke in a faint voice we could barely hear. As used here, faint means…",
+        "choices": [
+          "weak",
+          "angry",
+          "funny"
+        ],
+        "answer": "weak",
+        "difficulty": 1,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q5",
+        "prompt": "The path was soggy after the rain, wet and soft. As used here, soggy means…",
+        "choices": [
+          "wet and soft",
+          "steep",
+          "dusty"
+        ],
+        "answer": "wet and soft",
+        "difficulty": 1,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q6",
+        "prompt": "The kitten was timid and hid under the chair. As used here, timid means…",
+        "choices": [
+          "shy",
+          "hungry",
+          "orange"
+        ],
+        "answer": "shy",
+        "difficulty": 1,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q7",
+        "prompt": "We had ample time, more than enough to finish. As used here, ample means…",
+        "choices": [
+          "more than enough",
+          "almost none",
+          "exactly one minute"
+        ],
+        "answer": "more than enough",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q8",
+        "prompt": "The glass was fragile, so we packed it in foam. As used here, fragile means…",
+        "choices": [
+          "easy to break",
+          "heavy",
+          "empty"
+        ],
+        "answer": "easy to break",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q9",
+        "prompt": "Her answer was brief: just one short sentence. As used here, brief means…",
+        "choices": [
+          "short",
+          "wrong",
+          "loud"
+        ],
+        "answer": "short",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q10",
+        "prompt": "The room was dim because the curtains were closed. As used here, dim means…",
+        "choices": [
+          "not bright",
+          "crowded",
+          "painted"
+        ],
+        "answer": "not bright",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q11",
+        "prompt": "They had to abandon the leaky boat and swim. As used here, abandon means…",
+        "choices": [
+          "leave behind",
+          "paint",
+          "name"
+        ],
+        "answer": "leave behind",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q12",
+        "prompt": "The hike was rigorous, and our legs ached. As used here, rigorous means…",
+        "choices": [
+          "very hard",
+          "funny",
+          "short"
+        ],
+        "answer": "very hard",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q13",
+        "prompt": "A sudden gust, a strong rush of wind, slammed the door. As used here, gust means…",
+        "choices": [
+          "a rush of wind",
+          "a bird",
+          "a hill"
+        ],
+        "answer": "a rush of wind",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q14",
+        "prompt": "The fabric was coarse, rough against his hand. As used here, coarse means…",
+        "choices": [
+          "rough",
+          "blue",
+          "new"
+        ],
+        "answer": "rough",
+        "difficulty": 2,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q15",
+        "prompt": "She will reside on Oak Street, which means she will live there. As used here, reside means…",
+        "choices": [
+          "live",
+          "visit",
+          "pave"
+        ],
+        "answer": "live",
+        "difficulty": 3,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q16",
+        "prompt": "The joke was hilarious; everyone laughed for a minute. As used here, hilarious means…",
+        "choices": [
+          "very funny",
+          "mean",
+          "quiet"
+        ],
+        "answer": "very funny",
+        "difficulty": 3,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q17",
+        "prompt": "Please cease talking so the test can start. As used here, cease means…",
+        "choices": [
+          "stop",
+          "start",
+          "whisper"
+        ],
+        "answer": "stop",
+        "difficulty": 3,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q18",
+        "prompt": "The pond was shallow. We could see the bottom. As used here, shallow means…",
+        "choices": [
+          "not deep",
+          "salty",
+          "round"
+        ],
+        "answer": "not deep",
+        "difficulty": 3,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q19",
+        "prompt": "He was generous and shared his extra pencils. As used here, generous means…",
+        "choices": [
+          "willing to share",
+          "late",
+          "tall"
+        ],
+        "answer": "willing to share",
+        "difficulty": 3,
+        "hint": "The words next to it restated the meaning."
+      },
+      {
+        "id": "r35-cc3-q20",
+        "prompt": "The signal was urgent: everyone had to move now. As used here, urgent means…",
+        "choices": [
+          "needing action now",
+          "optional",
+          "secret"
+        ],
+        "answer": "needing action now",
+        "difficulty": 3,
+        "hint": "The words next to it restated the meaning."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-aff-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Vocabulary & word study",
+    "skill_name": "Read un- and re- to change a base word",
+    "standard_code": "ELA.3.V.1.2 | L.3.4.b",
+    "standard_codes": [
+      "ELA.3.V.1.2",
+      "L.3.4.b"
+    ],
+    "prerequisite_skills": [
+      "read-3-voc-1"
+    ],
+    "teach_content": {
+      "explanation": "un- flips a word to “not.” re- sends you back to “again.” Cover the prefix and read the base first.",
+      "worked_example": "unhappy = not happy. reread = read again."
+    },
+    "question_bank": [
+      {
+        "id": "r35-pre3-q1",
+        "prompt": "What does unhappy mean?",
+        "choices": [
+          "not happy",
+          "happy again",
+          "more happy"
+        ],
+        "answer": "not happy",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q2",
+        "prompt": "What does retie mean?",
+        "choices": [
+          "tie again",
+          "not tie",
+          "tie bigger"
+        ],
+        "answer": "tie again",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q3",
+        "prompt": "What does unfair mean?",
+        "choices": [
+          "not fair",
+          "fair again",
+          "very fair"
+        ],
+        "answer": "not fair",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q4",
+        "prompt": "What does rebuild mean?",
+        "choices": [
+          "build again",
+          "not build",
+          "build first"
+        ],
+        "answer": "build again",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q5",
+        "prompt": "What does unlock mean?",
+        "choices": [
+          "open a lock / not locked",
+          "lock again",
+          "paint a lock"
+        ],
+        "answer": "open a lock / not locked",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q6",
+        "prompt": "What does reread mean?",
+        "choices": [
+          "read again",
+          "not read",
+          "read louder"
+        ],
+        "answer": "read again",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q7",
+        "prompt": "What does unkind mean?",
+        "choices": [
+          "not kind",
+          "kind again",
+          "very kind"
+        ],
+        "answer": "not kind",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q8",
+        "prompt": "What does rewrite mean?",
+        "choices": [
+          "write again",
+          "not write",
+          "write first"
+        ],
+        "answer": "write again",
+        "difficulty": 1,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q9",
+        "prompt": "What does unsafe mean?",
+        "choices": [
+          "not safe",
+          "safe again",
+          "almost safe"
+        ],
+        "answer": "not safe",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q10",
+        "prompt": "What does refill mean?",
+        "choices": [
+          "fill again",
+          "not fill",
+          "fill halfway"
+        ],
+        "answer": "fill again",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q11",
+        "prompt": "What does unripe mean?",
+        "choices": [
+          "not ripe",
+          "ripe again",
+          "too ripe"
+        ],
+        "answer": "not ripe",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q12",
+        "prompt": "What does reheat mean?",
+        "choices": [
+          "heat again",
+          "not heat",
+          "heat first"
+        ],
+        "answer": "heat again",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q13",
+        "prompt": "What does untrue mean?",
+        "choices": [
+          "not true",
+          "true again",
+          "almost true"
+        ],
+        "answer": "not true",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q14",
+        "prompt": "What does replay mean?",
+        "choices": [
+          "play again",
+          "not play",
+          "play first"
+        ],
+        "answer": "play again",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q15",
+        "prompt": "What does unclear mean?",
+        "choices": [
+          "not clear",
+          "clear again",
+          "very clear"
+        ],
+        "answer": "not clear",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q16",
+        "prompt": "What does repack mean?",
+        "choices": [
+          "pack again",
+          "not pack",
+          "pack once"
+        ],
+        "answer": "pack again",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q17",
+        "prompt": "What does unopened mean?",
+        "choices": [
+          "not opened",
+          "opened again",
+          "opened first"
+        ],
+        "answer": "not opened",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q18",
+        "prompt": "What does recheck mean?",
+        "choices": [
+          "check again",
+          "not check",
+          "check later only"
+        ],
+        "answer": "check again",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q19",
+        "prompt": "What does unfinished mean?",
+        "choices": [
+          "not finished",
+          "finished again",
+          "finished first"
+        ],
+        "answer": "not finished",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      },
+      {
+        "id": "r35-pre3-q20",
+        "prompt": "What does retake mean?",
+        "choices": [
+          "take again",
+          "not take",
+          "take first"
+        ],
+        "answer": "take again",
+        "difficulty": 2,
+        "hint": "un- = not. re- = again."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-pur-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Author's purpose",
+    "skill_name": "Tell whether a text informs, entertains, instructs, or persuades",
+    "standard_code": "ELA.3.R.2.3 | RI.3.6",
+    "standard_codes": [
+      "ELA.3.R.2.3",
+      "RI.3.6"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Inform = facts. Instruct = steps. Entertain = a story or joke. Persuade = the writer wants you to do or believe something.",
+      "worked_example": "“Vote for clean parks” is persuade. A crane-folding page is instruct."
+    },
+    "question_bank": [
+      {
+        "id": "r35-ap3-q1",
+        "prompt": "A page lists steps to fold a paper crane. The author’s purpose is to…",
+        "choices": [
+          "Teach how to do something",
+          "Make you laugh",
+          "Tell a fairy tale"
+        ],
+        "answer": "Teach how to do something",
+        "difficulty": 1,
+        "hint": "Steps = instruct."
+      },
+      {
+        "id": "r35-ap3-q2",
+        "prompt": "A story about a talking pancake that runs away is meant to…",
+        "choices": [
+          "Entertain",
+          "Give bus times",
+          "Warn about fire exits"
+        ],
+        "answer": "Entertain",
+        "difficulty": 1,
+        "hint": "Silly story = entertain."
+      },
+      {
+        "id": "r35-ap3-q3",
+        "prompt": "A flyer says “Vote for clean parks on Tuesday.” Purpose?",
+        "choices": [
+          "Persuade",
+          "Describe a cell",
+          "Retell a myth"
+        ],
+        "answer": "Persuade",
+        "difficulty": 2,
+        "hint": "It wants an action."
+      },
+      {
+        "id": "r35-ap3-q4",
+        "prompt": "A field guide names birds and what they eat. Purpose?",
+        "choices": [
+          "Inform",
+          "Sell a joke",
+          "Scare you"
+        ],
+        "answer": "Inform",
+        "difficulty": 2,
+        "hint": "Facts about the world."
+      },
+      {
+        "id": "r35-ap3-q5",
+        "prompt": "Which line tries to persuade?",
+        "choices": [
+          "You should pack a water bottle.",
+          "Water boils at 100°C.",
+          "Once there was a thirsty crow."
+        ],
+        "answer": "You should pack a water bottle.",
+        "difficulty": 3,
+        "hint": "“Should” pushes a choice."
+      },
+      {
+        "id": "r35-ap3-q6",
+        "prompt": "A comic about a goat in rain boots Purpose?",
+        "choices": [
+          "Entertain",
+          "Give tax rules",
+          "List minerals"
+        ],
+        "answer": "Entertain",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q7",
+        "prompt": "A poster: “Join the library. It’s free.” Purpose?",
+        "choices": [
+          "Persuade",
+          "Define gravity",
+          "Retell a battle"
+        ],
+        "answer": "Persuade",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q8",
+        "prompt": "A chart of rainfall by month Purpose?",
+        "choices": [
+          "Inform",
+          "Tell a joke",
+          "Sell boots"
+        ],
+        "answer": "Inform",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q9",
+        "prompt": "Directions for a board game Purpose?",
+        "choices": [
+          "Teach how to do something",
+          "Describe a sunset for fun only",
+          "Argue about recess"
+        ],
+        "answer": "Teach how to do something",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q10",
+        "prompt": "A speech: “We must save the reef.” Purpose?",
+        "choices": [
+          "Persuade",
+          "Count fish species only",
+          "Name colors"
+        ],
+        "answer": "Persuade",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q11",
+        "prompt": "A myth about why the sun rises Purpose?",
+        "choices": [
+          "Entertain",
+          "Give a bus map",
+          "Teach long division"
+        ],
+        "answer": "Entertain",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q12",
+        "prompt": "A news brief about a new bridge Purpose?",
+        "choices": [
+          "Inform",
+          "Invent a dragon",
+          "Sell candy"
+        ],
+        "answer": "Inform",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q13",
+        "prompt": "A joke book page Purpose?",
+        "choices": [
+          "Entertain",
+          "Explain fractions",
+          "List state capitals"
+        ],
+        "answer": "Entertain",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q14",
+        "prompt": "“Buy this backpack — it lasts.” Purpose?",
+        "choices": [
+          "Persuade",
+          "Define nylon",
+          "Narrate a hike"
+        ],
+        "answer": "Persuade",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q15",
+        "prompt": "A diagram of a plant cell Purpose?",
+        "choices": [
+          "Inform",
+          "Write a limerick",
+          "Beg for a vote"
+        ],
+        "answer": "Inform",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q16",
+        "prompt": "A recipe for oat muffins Purpose?",
+        "choices": [
+          "Teach how to do something",
+          "Argue about recess",
+          "Tell a ghost story"
+        ],
+        "answer": "Teach how to do something",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q17",
+        "prompt": "A tall tale about a giant lumberjack Purpose?",
+        "choices": [
+          "Entertain",
+          "Measure rainfall",
+          "List safety rules"
+        ],
+        "answer": "Entertain",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q18",
+        "prompt": "“Please walk, don’t run, in halls.” Purpose?",
+        "choices": [
+          "Persuade",
+          "Describe Jupiter",
+          "Name the narrator"
+        ],
+        "answer": "Persuade",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q19",
+        "prompt": "A timeline of the American Revolution Purpose?",
+        "choices": [
+          "Inform",
+          "Write a knock-knock joke",
+          "Sell tickets only"
+        ],
+        "answer": "Inform",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      },
+      {
+        "id": "r35-ap3-q20",
+        "prompt": "How-to: tie a square knot Purpose?",
+        "choices": [
+          "Teach how to do something",
+          "Retell a fable",
+          "Campaign for mayor"
+        ],
+        "answer": "Teach how to do something",
+        "difficulty": 2,
+        "hint": "Ask: teach, inform, entertain, or persuade?"
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-lit-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Literary comprehension",
+    "skill_name": "Name a character trait from what a character does",
+    "standard_code": "ELA.3.R.1.1 | RL.3.3",
+    "standard_codes": [
+      "ELA.3.R.1.1",
+      "RL.3.3"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "A trait is how a character usually acts. Use actions, words, and choices. Do not guess from clothes or luck.",
+      "worked_example": "Maya gave away her extra apple. Trait: generous — the act shows it."
+    },
+    "question_bank": [
+      {
+        "id": "r35-ch3-q1",
+        "prompt": "Maya gave her extra apple to a classmate who forgot lunch. Which trait fits?",
+        "choices": [
+          "generous",
+          "selfish",
+          "sleepy"
+        ],
+        "answer": "generous",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q2",
+        "prompt": "Luis checked the lock three times before leaving. Which trait fits?",
+        "choices": [
+          "careful",
+          "silly",
+          "rude"
+        ],
+        "answer": "careful",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q3",
+        "prompt": "Nora kept trying the puzzle after it fell apart. Which trait fits?",
+        "choices": [
+          "persistent",
+          "lazy",
+          "mean"
+        ],
+        "answer": "persistent",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q4",
+        "prompt": "Theo laughed when someone’s project tore. Which trait fits?",
+        "choices": [
+          "unkind",
+          "helpful",
+          "shy"
+        ],
+        "answer": "unkind",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q5",
+        "prompt": "Priya asked both sides before she blamed anyone. Which trait fits?",
+        "choices": [
+          "fair",
+          "rushed",
+          "loud"
+        ],
+        "answer": "fair",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q6",
+        "prompt": "Sam hid the broken cup and said nothing. Which trait fits?",
+        "choices": [
+          "dishonest",
+          "brave",
+          "calm"
+        ],
+        "answer": "dishonest",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q7",
+        "prompt": "Ava stood up for a new student on the bus. Which trait fits?",
+        "choices": [
+          "brave",
+          "greedy",
+          "bored"
+        ],
+        "answer": "brave",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q8",
+        "prompt": "Ken shared the directions he had already written. Which trait fits?",
+        "choices": [
+          "helpful",
+          "jealous",
+          "late"
+        ],
+        "answer": "helpful",
+        "difficulty": 2,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q9",
+        "prompt": "Lila talked through the whole silent reading time. Which trait fits?",
+        "choices": [
+          "disruptive",
+          "focused",
+          "timid"
+        ],
+        "answer": "disruptive",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q10",
+        "prompt": "Omar waited his turn even when the line was long. Which trait fits?",
+        "choices": [
+          "patient",
+          "angry",
+          "proud"
+        ],
+        "answer": "patient",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q11",
+        "prompt": "Jess copied answers from a neighbor’s paper. Which trait fits?",
+        "choices": [
+          "dishonest",
+          "curious",
+          "kind"
+        ],
+        "answer": "dishonest",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q12",
+        "prompt": "Rin practiced the piano every morning before school. Which trait fits?",
+        "choices": [
+          "disciplined",
+          "careless",
+          "shy"
+        ],
+        "answer": "disciplined",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q13",
+        "prompt": "Bo slammed the door after losing a game. Which trait fits?",
+        "choices": [
+          "hot-tempered",
+          "gentle",
+          "patient"
+        ],
+        "answer": "hot-tempered",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q14",
+        "prompt": "Cara invited the kid sitting alone. Which trait fits?",
+        "choices": [
+          "welcoming",
+          "jealous",
+          "tired"
+        ],
+        "answer": "welcoming",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q15",
+        "prompt": "Drew blamed the dog for homework he never did. Which trait fits?",
+        "choices": [
+          "untruthful",
+          "responsible",
+          "calm"
+        ],
+        "answer": "untruthful",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q16",
+        "prompt": "Eden carried both backpacks when a friend sprained a wrist. Which trait fits?",
+        "choices": [
+          "helpful",
+          "selfish",
+          "proud"
+        ],
+        "answer": "helpful",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q17",
+        "prompt": "Finn quit as soon as the problem looked hard. Which trait fits?",
+        "choices": [
+          "easily discouraged",
+          "persistent",
+          "curious"
+        ],
+        "answer": "easily discouraged",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q18",
+        "prompt": "Gia whispered the answer so a friend wouldn’t freeze. Which trait fits?",
+        "choices": [
+          "kind",
+          "rude",
+          "vain"
+        ],
+        "answer": "kind",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q19",
+        "prompt": "Hugo took the last cookie and hid the box. Which trait fits?",
+        "choices": [
+          "selfish",
+          "generous",
+          "fair"
+        ],
+        "answer": "selfish",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      },
+      {
+        "id": "r35-ch3-q20",
+        "prompt": "Ivy double-checked every source before she wrote. Which trait fits?",
+        "choices": [
+          "careful",
+          "sloppy",
+          "silly"
+        ],
+        "answer": "careful",
+        "difficulty": 3,
+        "hint": "Judge by what the character does, not a label in the text."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-ce-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Text structure",
+    "skill_name": "Identify cause and effect in an informational sentence",
+    "standard_code": "ELA.4.R.2.1 | RI.4.5",
+    "standard_codes": [
+      "ELA.4.R.2.1",
+      "RI.4.5"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Cause is why. Effect is what happened. Signal words: because, so, therefore, as a result.",
+      "worked_example": "The river rose because the snow melted. Cause: melting snow. Effect: the river rose."
+    },
+    "question_bank": [
+      {
+        "id": "read-4-ce-1-q1",
+        "prompt": "The river rose because the snow melted. The cause is…",
+        "choices": [
+          "The snow melted",
+          "The river rose",
+          "A boat sank"
+        ],
+        "answer": "The snow melted",
+        "difficulty": 1,
+        "hint": "Because points to the cause."
+      },
+      {
+        "id": "read-4-ce-1-q2",
+        "prompt": "We were late, so we missed the opening song. The effect is…",
+        "choices": [
+          "We missed the opening song",
+          "We left home",
+          "The song was long"
+        ],
+        "answer": "We missed the opening song",
+        "difficulty": 2,
+        "hint": "So points to the effect."
+      },
+      {
+        "id": "read-4-ce-1-q3",
+        "prompt": "As a result of the drought, crops failed. Effect?",
+        "choices": [
+          "Crops failed",
+          "It rained",
+          "Farmers sang"
+        ],
+        "answer": "Crops failed",
+        "difficulty": 2,
+        "hint": "As a result names the outcome."
+      },
+      {
+        "id": "read-4-ce-1-q4",
+        "prompt": "Which pair is cause → effect?",
+        "choices": [
+          "Ice on the road → the bus slid",
+          "The bus slid → ice formed last winter in another town",
+          "A map → a title"
+        ],
+        "answer": "Ice on the road → the bus slid",
+        "difficulty": 3,
+        "hint": "The first event makes the second."
+      },
+      {
+        "id": "read-4-ce-1-q5",
+        "prompt": "The lights went out. Therefore the concert paused. Cause?",
+        "choices": [
+          "The lights went out",
+          "The concert paused",
+          "A ticket stub"
+        ],
+        "answer": "The lights went out",
+        "difficulty": 2,
+        "hint": "Therefore follows the cause."
+      },
+      {
+        "id": "read-4-ce-1-q6",
+        "prompt": "Because the battery died, the robot stopped. Effect?",
+        "choices": [
+          "The robot stopped",
+          "The battery died",
+          "A new toy"
+        ],
+        "answer": "The robot stopped",
+        "difficulty": 1,
+        "hint": "Name what happened next."
+      },
+      {
+        "id": "read-4-ce-1-q7",
+        "prompt": "Heavy rain fell; the creek jumped its banks. Cause?",
+        "choices": [
+          "Heavy rain fell",
+          "The creek jumped",
+          "A picnic"
+        ],
+        "answer": "Heavy rain fell",
+        "difficulty": 2,
+        "hint": "What started it?"
+      },
+      {
+        "id": "read-4-ce-1-q8",
+        "prompt": "She studied nightly. As a result her score rose. Effect?",
+        "choices": [
+          "Her score rose",
+          "She bought a pencil",
+          "The test was Friday"
+        ],
+        "answer": "Her score rose",
+        "difficulty": 2,
+        "hint": "As a result = effect."
+      },
+      {
+        "id": "read-4-ce-1-q9",
+        "prompt": "The oven was left on, so the kitchen grew hot. Cause?",
+        "choices": [
+          "The oven was left on",
+          "The kitchen grew hot",
+          "A recipe"
+        ],
+        "answer": "The oven was left on",
+        "difficulty": 1,
+        "hint": "So follows the cause."
+      },
+      {
+        "id": "read-4-ce-1-q10",
+        "prompt": "A cracked dam leaked. Therefore the valley flooded. Effect?",
+        "choices": [
+          "The valley flooded",
+          "A cracked dam leaked",
+          "A map key"
+        ],
+        "answer": "The valley flooded",
+        "difficulty": 3,
+        "hint": "Therefore introduces the result."
+      },
+      {
+        "id": "read-4-ce-1-q11",
+        "prompt": "Which word most often signals a cause?",
+        "choices": [
+          "because",
+          "instead",
+          "also"
+        ],
+        "answer": "because",
+        "difficulty": 2,
+        "hint": "Because answers why."
+      },
+      {
+        "id": "read-4-ce-1-q12",
+        "prompt": "Which word most often signals an effect?",
+        "choices": [
+          "therefore",
+          "during",
+          "between"
+        ],
+        "answer": "therefore",
+        "difficulty": 2,
+        "hint": "Therefore answers what followed."
+      },
+      {
+        "id": "read-4-ce-1-q13",
+        "prompt": "The team practiced at dawn, so they were ready. Effect?",
+        "choices": [
+          "They were ready",
+          "Dawn came",
+          "A whistle"
+        ],
+        "answer": "They were ready",
+        "difficulty": 2,
+        "hint": "So + clause = effect."
+      },
+      {
+        "id": "read-4-ce-1-q14",
+        "prompt": "A bee sting swelled her hand. Cause?",
+        "choices": [
+          "A bee sting",
+          "Her hand swelled",
+          "A picnic blanket"
+        ],
+        "answer": "A bee sting",
+        "difficulty": 1,
+        "hint": "What started the swelling?"
+      },
+      {
+        "id": "read-4-ce-1-q15",
+        "prompt": "No one watered the plant; it wilted. Effect?",
+        "choices": [
+          "It wilted",
+          "No one watered",
+          "A pot"
+        ],
+        "answer": "It wilted",
+        "difficulty": 2,
+        "hint": "Second event is the effect."
+      },
+      {
+        "id": "read-4-ce-1-q16",
+        "prompt": "Because the trail was icy, hikers turned back. Cause?",
+        "choices": [
+          "The trail was icy",
+          "Hikers turned back",
+          "A summit"
+        ],
+        "answer": "The trail was icy",
+        "difficulty": 2,
+        "hint": "Because + clause = cause."
+      },
+      {
+        "id": "read-4-ce-1-q17",
+        "prompt": "The printer jammed. As a result the job was late. Effect?",
+        "choices": [
+          "The job was late",
+          "The printer jammed",
+          "Paper"
+        ],
+        "answer": "The job was late",
+        "difficulty": 2,
+        "hint": "As a result = effect."
+      },
+      {
+        "id": "read-4-ce-1-q18",
+        "prompt": "A power surge hit, so the files vanished. Cause?",
+        "choices": [
+          "A power surge hit",
+          "The files vanished",
+          "A folder"
+        ],
+        "answer": "A power surge hit",
+        "difficulty": 3,
+        "hint": "So follows the cause."
+      },
+      {
+        "id": "read-4-ce-1-q19",
+        "prompt": "Which sentence is organized cause then effect?",
+        "choices": [
+          "The glass dropped, so it cracked.",
+          "The glass was blue and tall.",
+          "Once there was a glass."
+        ],
+        "answer": "The glass dropped, so it cracked.",
+        "difficulty": 3,
+        "hint": "Look for so / because."
+      },
+      {
+        "id": "read-4-ce-1-q20",
+        "prompt": "Pick the effect in “Wind knocked the sign down.”",
+        "choices": [
+          "The sign fell",
+          "Wind blew",
+          "A street"
+        ],
+        "answer": "The sign fell",
+        "difficulty": 2,
+        "hint": "What changed?"
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-fig-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Figurative language",
+    "skill_name": "Tell a simile from a metaphor",
+    "standard_code": "ELA.4.R.3.1 | RL.4.4",
+    "standard_codes": [
+      "ELA.4.R.3.1",
+      "RL.4.4"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "A simile compares with like or as. A metaphor says one thing is another. Both are not literal.",
+      "worked_example": "The cloud was like a pillow = simile. The cloud was a pillow = metaphor."
+    },
+    "question_bank": [
+      {
+        "id": "read-4-fig-1-q1",
+        "prompt": "“The cloud was like a pillow.” This is a…",
+        "choices": [
+          "simile",
+          "metaphor",
+          "fact"
+        ],
+        "answer": "simile",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q2",
+        "prompt": "“The classroom was a zoo.” This is a…",
+        "choices": [
+          "metaphor",
+          "simile",
+          "recipe"
+        ],
+        "answer": "metaphor",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q3",
+        "prompt": "Which uses like or as?",
+        "choices": [
+          "He ran like a fox.",
+          "He was a fox on the field.",
+          "He ran home."
+        ],
+        "answer": "He ran like a fox.",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q4",
+        "prompt": "“Her voice was velvet.” Metaphor or simile?",
+        "choices": [
+          "metaphor",
+          "simile",
+          "rhyme"
+        ],
+        "answer": "metaphor",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q5",
+        "prompt": "“As brave as a lion” is a…",
+        "choices": [
+          "simile",
+          "metaphor",
+          "setting"
+        ],
+        "answer": "simile",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q6",
+        "prompt": "Literal meaning of “the classroom was a zoo”?",
+        "choices": [
+          "It was noisy and wild",
+          "Animals lived at desks",
+          "It had a ticket booth"
+        ],
+        "answer": "It was noisy and wild",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q7",
+        "prompt": "“The lake was glass.” The author means the lake was…",
+        "choices": [
+          "very still and smooth",
+          "made of window glass",
+          "cold only"
+        ],
+        "answer": "very still and smooth",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q8",
+        "prompt": "Pick the simile.",
+        "choices": [
+          "The news hit like a wave.",
+          "The news was a wave.",
+          "The news aired at six."
+        ],
+        "answer": "The news hit like a wave.",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q9",
+        "prompt": "Pick the metaphor.",
+        "choices": [
+          "Time is a thief.",
+          "Time moved like a thief.",
+          "The clock ticked."
+        ],
+        "answer": "Time is a thief.",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q10",
+        "prompt": "“Teeth like pearls” compares with…",
+        "choices": [
+          "like",
+          "is",
+          "because"
+        ],
+        "answer": "like",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q11",
+        "prompt": "“The wind whispered.” That figure is closest to…",
+        "choices": [
+          "personification",
+          "a fraction",
+          "a caption"
+        ],
+        "answer": "personification",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q12",
+        "prompt": "Why writers use simile:",
+        "choices": [
+          "To help you picture a comparison",
+          "To list dates",
+          "To end a paragraph with a number"
+        ],
+        "answer": "To help you picture a comparison",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q13",
+        "prompt": "“He is a walking encyclopedia.” Means he…",
+        "choices": [
+          "knows a lot",
+          "is made of paper",
+          "walks in a library only"
+        ],
+        "answer": "knows a lot",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q14",
+        "prompt": "“As cold as ice” is…",
+        "choices": [
+          "simile",
+          "metaphor",
+          "theme"
+        ],
+        "answer": "simile",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q15",
+        "prompt": "“The city is a heartbeat.” This is…",
+        "choices": [
+          "metaphor",
+          "simile",
+          "index"
+        ],
+        "answer": "metaphor",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q16",
+        "prompt": "Which is literal?",
+        "choices": [
+          "The bus was late.",
+          "The bus was a snail.",
+          "The bus crawled like a snail."
+        ],
+        "answer": "The bus was late.",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q17",
+        "prompt": "“Cheeks like roses” uses…",
+        "choices": [
+          "like",
+          "is",
+          "therefore"
+        ],
+        "answer": "like",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q18",
+        "prompt": "“My brother is a tornado in the kitchen.” Means he is…",
+        "choices": [
+          "messy and fast",
+          "made of wind",
+          "outside"
+        ],
+        "answer": "messy and fast",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q19",
+        "prompt": "A metaphor never needs…",
+        "choices": [
+          "like or as",
+          "a noun",
+          "a sentence"
+        ],
+        "answer": "like or as",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      },
+      {
+        "id": "read-4-fig-1-q20",
+        "prompt": "“Quiet as a mouse” is a…",
+        "choices": [
+          "simile",
+          "metaphor",
+          "heading"
+        ],
+        "answer": "simile",
+        "difficulty": 2,
+        "hint": "like/as = simile. is/was = often metaphor."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-5-ev-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "5",
+    "strand": "Informational comprehension",
+    "skill_name": "Match a claim to the sentence that supports it",
+    "standard_code": "ELA.5.R.2.4 | RI.5.8",
+    "standard_codes": [
+      "ELA.5.R.2.4",
+      "RI.5.8"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "A claim is the point. Evidence is a fact, example, or datum that makes the point believable. Quotes and numbers often count.",
+      "worked_example": "Claim: the library should stay open later. Evidence: 40 students stay after 4 p.m. for Wi-Fi."
+    },
+    "question_bank": [
+      {
+        "id": "read-5-ev-1-q1",
+        "prompt": "Claim: the library should stay open later. Best evidence?",
+        "choices": [
+          "40 students stay after 4 p.m. for Wi-Fi",
+          "Libraries are nice",
+          "I like books"
+        ],
+        "answer": "40 students stay after 4 p.m. for Wi-Fi",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q2",
+        "prompt": "Claim: recess helps learning. Best evidence?",
+        "choices": [
+          "A study found higher afternoon scores after outdoor play",
+          "Recess is fun",
+          "Kids like balls"
+        ],
+        "answer": "A study found higher afternoon scores after outdoor play",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q3",
+        "prompt": "Which sentence is a claim, not evidence?",
+        "choices": [
+          "School should start later.",
+          "Bus ridership rose 12%.",
+          "The first bell is at 7:10."
+        ],
+        "answer": "School should start later.",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q4",
+        "prompt": "Which sentence is evidence, not a claim?",
+        "choices": [
+          "Bus ridership rose 12%.",
+          "We ought to add a late bus.",
+          "Mornings are hard."
+        ],
+        "answer": "Bus ridership rose 12%.",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q5",
+        "prompt": "A quote from a park ranger about trail damage is…",
+        "choices": [
+          "evidence",
+          "a title",
+          "a joke"
+        ],
+        "answer": "evidence",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q6",
+        "prompt": "“Everyone knows it” is weak because…",
+        "choices": [
+          "It names no fact",
+          "It is too short",
+          "It uses a period"
+        ],
+        "answer": "It names no fact",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q7",
+        "prompt": "Claim: helmets prevent injuries. Strongest support?",
+        "choices": [
+          "ER visits dropped 18% after the helmet rule",
+          "Helmets look cool",
+          "My cousin has one"
+        ],
+        "answer": "ER visits dropped 18% after the helmet rule",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q8",
+        "prompt": "Numbers in a text often work as…",
+        "choices": [
+          "evidence",
+          "setting",
+          "rhyme"
+        ],
+        "answer": "evidence",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q9",
+        "prompt": "Pick the claim.",
+        "choices": [
+          "The cafeteria should offer a cold option.",
+          "Monday’s menu listed beans.",
+          "The line was 12 minutes."
+        ],
+        "answer": "The cafeteria should offer a cold option.",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q10",
+        "prompt": "Pick the evidence.",
+        "choices": [
+          "Monday’s line was 12 minutes long.",
+          "Lunch must change.",
+          "Food matters."
+        ],
+        "answer": "Monday’s line was 12 minutes long.",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q11",
+        "prompt": "A photograph of flooded streets supports a claim about…",
+        "choices": [
+          "storm damage",
+          "favorite colors",
+          "a poem’s rhyme"
+        ],
+        "answer": "storm damage",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q12",
+        "prompt": "“I feel that” usually introduces…",
+        "choices": [
+          "an opinion/claim",
+          "a measured fact",
+          "a caption"
+        ],
+        "answer": "an opinion/claim",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q13",
+        "prompt": "Best evidence that a book is popular?",
+        "choices": [
+          "It has a 40-person wait list",
+          "The cover is blue",
+          "The author is tall"
+        ],
+        "answer": "It has a 40-person wait list",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q14",
+        "prompt": "A counterclaim is…",
+        "choices": [
+          "the other side’s point",
+          "a page number",
+          "a simile"
+        ],
+        "answer": "the other side’s point",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q15",
+        "prompt": "Why writers add data:",
+        "choices": [
+          "To make a claim believable",
+          "To decorate",
+          "To end every paragraph"
+        ],
+        "answer": "To make a claim believable",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q16",
+        "prompt": "Claim: the new path is safer. Weak support?",
+        "choices": [
+          "I just like it",
+          "Zero bike crashes this year on that block",
+          "A traffic count"
+        ],
+        "answer": "I just like it",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q17",
+        "prompt": "An expert quote counts as evidence when…",
+        "choices": [
+          "it is on the same point as the claim",
+          "it is long",
+          "it uses commas"
+        ],
+        "answer": "it is on the same point as the claim",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q18",
+        "prompt": "“Should,” “must,” and “ought” often mark a…",
+        "choices": [
+          "claim",
+          "caption",
+          "setting"
+        ],
+        "answer": "claim",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q19",
+        "prompt": "Two facts that agree make evidence…",
+        "choices": [
+          "stronger",
+          "a poem",
+          "a heading"
+        ],
+        "answer": "stronger",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      },
+      {
+        "id": "read-5-ev-1-q20",
+        "prompt": "If the claim is about water quality, drop the sentence about…",
+        "choices": [
+          "the soccer score",
+          "test results from the river",
+          "a boil-water notice"
+        ],
+        "answer": "the soccer score",
+        "difficulty": 2,
+        "hint": "Claim = the point. Evidence = the proof."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-thm-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Literary comprehension",
+    "skill_name": "Name the theme of a short fable-like story",
+    "standard_code": "ELA.3.R.1.2 | RL.3.2",
+    "standard_codes": [
+      "ELA.3.R.1.2",
+      "RL.3.2"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Theme is the lesson about life, not the plot. Plot is what happened. Theme is what it is about.",
+      "worked_example": "A fox loses friends by lying. Theme: honesty keeps friends — not “a fox told a lie.”"
+    },
+    "question_bank": [
+      {
+        "id": "read-3-thm-1-q1",
+        "prompt": "A girl shares her last crayon and later has help on a hard page. Theme?",
+        "choices": [
+          "Kindness comes back around",
+          "Crayons are wax",
+          "School starts at 8"
+        ],
+        "answer": "Kindness comes back around",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q2",
+        "prompt": "A boy cries wolf twice; no one comes the third time. Theme?",
+        "choices": [
+          "People stop trusting a liar",
+          "Wolves are loud",
+          "Farms have fences"
+        ],
+        "answer": "People stop trusting a liar",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q3",
+        "prompt": "Two goats refuse to move and both fall. Theme?",
+        "choices": [
+          "Stubbornness can hurt both sides",
+          "Goats eat grass",
+          "Bridges are wood"
+        ],
+        "answer": "Stubbornness can hurt both sides",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q4",
+        "prompt": "A seed waits all winter and then grows. Theme?",
+        "choices": [
+          "Patience can pay off",
+          "Winter is cold",
+          "Soil is brown"
+        ],
+        "answer": "Patience can pay off",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q5",
+        "prompt": "Which is plot, not theme?",
+        "choices": [
+          "The fox stole cheese",
+          "Greed can leave you with nothing",
+          "Sharing matters"
+        ],
+        "answer": "The fox stole cheese",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q6",
+        "prompt": "Which is theme, not plot?",
+        "choices": [
+          "Hard work beats luck",
+          "She won the race on Saturday",
+          "The ribbon was blue"
+        ],
+        "answer": "Hard work beats luck",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q7",
+        "prompt": "A team loses until they pass instead of hogging. Theme?",
+        "choices": [
+          "Working together works better",
+          "Basketballs bounce",
+          "Gyms have clocks"
+        ],
+        "answer": "Working together works better",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q8",
+        "prompt": "Someone copies homework and fails the quiz anyway. Theme?",
+        "choices": [
+          "Cheating does not teach you",
+          "Quizzes have ten items",
+          "Pencils break"
+        ],
+        "answer": "Cheating does not teach you",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q9",
+        "prompt": "A traveler is rude to a baker and goes hungry. Theme?",
+        "choices": [
+          "Respect opens doors",
+          "Bread is warm",
+          "Roads are long"
+        ],
+        "answer": "Respect opens doors",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q10",
+        "prompt": "Best theme question:",
+        "choices": [
+          "What did the author want you to learn about life?",
+          "What color was the hat?",
+          "How many pages?"
+        ],
+        "answer": "What did the author want you to learn about life?",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q11",
+        "prompt": "A mouse helps a lion and later is saved. Theme?",
+        "choices": [
+          "Small friends can matter",
+          "Lions roar",
+          "Nets have rope"
+        ],
+        "answer": "Small friends can matter",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q12",
+        "prompt": "Theme should be…",
+        "choices": [
+          "true beyond this one story",
+          "a character’s full name",
+          "the page number"
+        ],
+        "answer": "true beyond this one story",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q13",
+        "prompt": "“Never give up” fits a story about…",
+        "choices": [
+          "retrying after a fall",
+          "listing state birds",
+          "a lunch menu"
+        ],
+        "answer": "retrying after a fall",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q14",
+        "prompt": "A proud crow drops its cheese. Theme?",
+        "choices": [
+          "Pride can cost you",
+          "Cheese is yellow",
+          "Trees have branches"
+        ],
+        "answer": "Pride can cost you",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q15",
+        "prompt": "If every event is “then this happened,” you are listing…",
+        "choices": [
+          "plot",
+          "theme",
+          "meter"
+        ],
+        "answer": "plot",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q16",
+        "prompt": "A child returns a lost wallet. Theme?",
+        "choices": [
+          "Honesty is worth it",
+          "Wallets have zippers",
+          "The mall closes at 9"
+        ],
+        "answer": "Honesty is worth it",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q17",
+        "prompt": "Two themes can both fit if…",
+        "choices": [
+          "both lessons are backed by the ending",
+          "they rhyme",
+          "they are short"
+        ],
+        "answer": "both lessons are backed by the ending",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q18",
+        "prompt": "Drop this as theme:",
+        "choices": [
+          "The dog’s name was Scout",
+          "Loyalty holds a family together",
+          "Courage is quiet"
+        ],
+        "answer": "The dog’s name was Scout",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q19",
+        "prompt": "Fables often end with…",
+        "choices": [
+          "a clear lesson",
+          "a graph",
+          "an index"
+        ],
+        "answer": "a clear lesson",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      },
+      {
+        "id": "read-3-thm-1-q20",
+        "prompt": "Theme is closest to…",
+        "choices": [
+          "the author’s message",
+          "the setting’s weather",
+          "the table of contents"
+        ],
+        "answer": "the author’s message",
+        "difficulty": 2,
+        "hint": "Lesson about life, not the one event."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-pov-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Literary comprehension",
+    "skill_name": "Tell who is narrating: I or he/she",
+    "standard_code": "ELA.3.R.1.3 | RL.3.6",
+    "standard_codes": [
+      "ELA.3.R.1.3",
+      "RL.3.6"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "First person uses I, me, we. Third person uses he, she, they, and names. The narrator is not always the hero.",
+      "worked_example": "“I hid the map.” First person. “Lena hid the map.” Third person."
+    },
+    "question_bank": [
+      {
+        "id": "read-3-pov-1-q1",
+        "prompt": "“I hid the map under the porch.” Point of view?",
+        "choices": [
+          "first person",
+          "third person",
+          "a recipe"
+        ],
+        "answer": "first person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q2",
+        "prompt": "“Lena hid the map under the porch.” Point of view?",
+        "choices": [
+          "third person",
+          "first person",
+          "second person only"
+        ],
+        "answer": "third person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q3",
+        "prompt": "Which pronoun marks first person?",
+        "choices": [
+          "I",
+          "she",
+          "they"
+        ],
+        "answer": "I",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q4",
+        "prompt": "Which pronoun marks third person?",
+        "choices": [
+          "he",
+          "I",
+          "me"
+        ],
+        "answer": "he",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q5",
+        "prompt": "“We ran until the bell.” Narrator is…",
+        "choices": [
+          "in the group (first person)",
+          "outside naming kids",
+          "the bell"
+        ],
+        "answer": "in the group (first person)",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q6",
+        "prompt": "“Jamal thought the test was fair.” POV?",
+        "choices": [
+          "third person",
+          "first person",
+          "a caption"
+        ],
+        "answer": "third person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q7",
+        "prompt": "You can hear a character’s exact thoughts most easily in…",
+        "choices": [
+          "first person",
+          "a timeline",
+          "an index"
+        ],
+        "answer": "first person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q8",
+        "prompt": "“You should pack water,” if the book speaks to the reader, is closest to…",
+        "choices": [
+          "second person",
+          "third person limited only",
+          "a metaphor"
+        ],
+        "answer": "second person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q9",
+        "prompt": "The narrator says “my brother.” POV?",
+        "choices": [
+          "first person",
+          "third person",
+          "informational heading"
+        ],
+        "answer": "first person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q10",
+        "prompt": "The narrator says “her brother.” POV?",
+        "choices": [
+          "third person",
+          "first person",
+          "a chart"
+        ],
+        "answer": "third person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q11",
+        "prompt": "Why POV matters:",
+        "choices": [
+          "It decides whose mind you sit in",
+          "It sets font size",
+          "It numbers pages"
+        ],
+        "answer": "It decides whose mind you sit in",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q12",
+        "prompt": "Two characters argue. First person will show…",
+        "choices": [
+          "one side from the inside",
+          "a weather table",
+          "chapter titles only"
+        ],
+        "answer": "one side from the inside",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q13",
+        "prompt": "“They boarded the train.” POV?",
+        "choices": [
+          "third person",
+          "first person",
+          "a schedule"
+        ],
+        "answer": "third person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q14",
+        "prompt": "Pick first person.",
+        "choices": [
+          "I forgot my lunch.",
+          "She forgot her lunch.",
+          "The lunch line moved."
+        ],
+        "answer": "I forgot my lunch.",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q15",
+        "prompt": "Pick third person.",
+        "choices": [
+          "Owen tied his shoes.",
+          "I tied my shoes.",
+          "Tie your shoes."
+        ],
+        "answer": "Owen tied his shoes.",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q16",
+        "prompt": "If every sentence starts with a name, you are likely in…",
+        "choices": [
+          "third person",
+          "first person",
+          "a form"
+        ],
+        "answer": "third person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q17",
+        "prompt": "“My stomach dropped.” You are hearing…",
+        "choices": [
+          "the narrator’s feeling",
+          "the author’s birthday",
+          "a glossary"
+        ],
+        "answer": "the narrator’s feeling",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q18",
+        "prompt": "A story can switch POV only if…",
+        "choices": [
+          "a new section makes the shift clear",
+          "the font changes",
+          "a word is bold"
+        ],
+        "answer": "a new section makes the shift clear",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q19",
+        "prompt": "Third person can still know thoughts if it is…",
+        "choices": [
+          "third person limited or omniscient",
+          "a photograph",
+          "a blurb"
+        ],
+        "answer": "third person limited or omniscient",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      },
+      {
+        "id": "read-3-pov-1-q20",
+        "prompt": "“Ask me later,” I said. POV?",
+        "choices": [
+          "first person",
+          "third person",
+          "stage directions only"
+        ],
+        "answer": "first person",
+        "difficulty": 2,
+        "hint": "I/we = first. he/she/name = third."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-inf-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Literary comprehension",
+    "skill_name": "Infer a feeling or reason the text does not state",
+    "standard_code": "ELA.3.R.3.2 | RL.3.1",
+    "standard_codes": [
+      "ELA.3.R.3.2",
+      "RL.3.1"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "An inference uses a clue plus what you already know. It is not a wild guess and it is not a sentence copied from the page.",
+      "worked_example": "Maya’s hands shook as she opened the envelope. Inference: she is nervous — the text never says the word."
+    },
+    "question_bank": [
+      {
+        "id": "read-3-inf-1-q1",
+        "prompt": "Maya’s hands shook as she opened the envelope. You can infer she is…",
+        "choices": [
+          "nervous",
+          "hungry",
+          "eight years old"
+        ],
+        "answer": "nervous",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q2",
+        "prompt": "The dog hides when the suitcase comes out. Infer the dog…",
+        "choices": [
+          "dislikes people leaving",
+          "cannot see",
+          "is a puppy only"
+        ],
+        "answer": "dislikes people leaving",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q3",
+        "prompt": "He reread the note four times and frowned. Infer he is…",
+        "choices": [
+          "worried or confused",
+          "finished packing",
+          "teaching math"
+        ],
+        "answer": "worried or confused",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q4",
+        "prompt": "Which is an inference, not a stated fact?",
+        "choices": [
+          "She is embarrassed",
+          "Her face turned red — wait, pick: she might feel embarrassed",
+          "The gym is large"
+        ],
+        "answer": "She is embarrassed",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q5",
+        "prompt": "Best clue that a character is proud:",
+        "choices": [
+          "He stood taller and grinned",
+          "He owns socks",
+          "It was Tuesday"
+        ],
+        "answer": "He stood taller and grinned",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q6",
+        "prompt": "Kids whisper and glance at a closed door. Infer…",
+        "choices": [
+          "something secret is behind it",
+          "the door is wood",
+          "school has doors"
+        ],
+        "answer": "something secret is behind it",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q7",
+        "prompt": "An inference must be…",
+        "choices": [
+          "backed by a clue",
+          "longer than the paragraph",
+          "the first sentence"
+        ],
+        "answer": "backed by a clue",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q8",
+        "prompt": "“It was raining.” That sentence is…",
+        "choices": [
+          "stated",
+          "inferred",
+          "a theme"
+        ],
+        "answer": "stated",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q9",
+        "prompt": "Empty chairs and a cold cake. Infer the party…",
+        "choices": [
+          "already ended or few came",
+          "is tomorrow only",
+          "needs balloons only"
+        ],
+        "answer": "already ended or few came",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q10",
+        "prompt": "She gave one-word answers and stared at the floor. Infer she is…",
+        "choices": [
+          "upset or shy",
+          "tall",
+          "the narrator’s cousin"
+        ],
+        "answer": "upset or shy",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q11",
+        "prompt": "Do not infer from…",
+        "choices": [
+          "a detail that is not there",
+          "a shaking hand",
+          "a slammed door"
+        ],
+        "answer": "a detail that is not there",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q12",
+        "prompt": "The lights go off and people cheer. Infer it may be…",
+        "choices": [
+          "a surprise or a show starting",
+          "lunch",
+          "a spelling test"
+        ],
+        "answer": "a surprise or a show starting",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q13",
+        "prompt": "A good check:",
+        "choices": [
+          "Could I point to the clue?",
+          "Is my guess exciting?",
+          "Does it rhyme?"
+        ],
+        "answer": "Could I point to the clue?",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q14",
+        "prompt": "He pocketed the coin and looked both ways. Infer he…",
+        "choices": [
+          "does not want to be seen",
+          "likes copper",
+          "is late for art"
+        ],
+        "answer": "does not want to be seen",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q15",
+        "prompt": "Which question asks for inference?",
+        "choices": [
+          "Why did she pause at the gate?",
+          "What color is the gate?",
+          "How many words?"
+        ],
+        "answer": "Why did she pause at the gate?",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q16",
+        "prompt": "Steam on the window + coats on. Infer the weather is…",
+        "choices": [
+          "cold outside",
+          "a holiday",
+          "after lunch"
+        ],
+        "answer": "cold outside",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q17",
+        "prompt": "A stated feeling uses words like…",
+        "choices": [
+          "sad, angry, glad",
+          "maybe, perhaps",
+          "theme, plot"
+        ],
+        "answer": "sad, angry, glad",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q18",
+        "prompt": "Two clues beat one because…",
+        "choices": [
+          "they confirm the same idea",
+          "they rhyme",
+          "they are bold"
+        ],
+        "answer": "they confirm the same idea",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q19",
+        "prompt": "He packed a flashlight and extra water. Infer the trip is…",
+        "choices": [
+          "long or outdoor",
+          "to the next classroom",
+          "about painting"
+        ],
+        "answer": "long or outdoor",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      },
+      {
+        "id": "read-3-inf-1-q20",
+        "prompt": "If the text already says “she was furious,” you do not need to…",
+        "choices": [
+          "infer that feeling",
+          "read the next line",
+          "notice quotes"
+        ],
+        "answer": "infer that feeling",
+        "difficulty": 2,
+        "hint": "Clue + what you know, not a guess."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-feat-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Informational comprehension",
+    "skill_name": "Use a text feature to find information faster",
+    "standard_code": "ELA.3.R.2.1 | RI.3.5",
+    "standard_codes": [
+      "ELA.3.R.2.1",
+      "RI.3.5"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Features are tools around the sentences: title, heading, caption, diagram, glossary, index, table of contents. They point; they are not the whole article.",
+      "worked_example": "A caption under a photo tells you what the picture is showing. A glossary defines a bold word."
+    },
+    "question_bank": [
+      {
+        "id": "read-3-feat-1-q1",
+        "prompt": "A short line under a photo is a…",
+        "choices": [
+          "caption",
+          "index",
+          "theme"
+        ],
+        "answer": "caption",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q2",
+        "prompt": "A list of chapter names in front is the…",
+        "choices": [
+          "table of contents",
+          "glossary",
+          "caption"
+        ],
+        "answer": "table of contents",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q3",
+        "prompt": "Bold words defined at the back live in the…",
+        "choices": [
+          "glossary",
+          "index",
+          "setting"
+        ],
+        "answer": "glossary",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q4",
+        "prompt": "An A–Z list of topics and page numbers is an…",
+        "choices": [
+          "index",
+          "caption",
+          "simile"
+        ],
+        "answer": "index",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q5",
+        "prompt": "A heading helps you…",
+        "choices": [
+          "see what the next section is about",
+          "rhyme",
+          "count syllables"
+        ],
+        "answer": "see what the next section is about",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q6",
+        "prompt": "A diagram is most useful when you need…",
+        "choices": [
+          "to see how parts fit",
+          "a character’s feelings",
+          "a joke"
+        ],
+        "answer": "to see how parts fit",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q7",
+        "prompt": "Where do you look up what “habitat” means in that book?",
+        "choices": [
+          "glossary",
+          "index only if you guess pages",
+          "the back cover blurb only"
+        ],
+        "answer": "glossary",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q8",
+        "prompt": "Where do you find every page that mentions “volcanoes”?",
+        "choices": [
+          "index",
+          "caption",
+          "first paragraph"
+        ],
+        "answer": "index",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q9",
+        "prompt": "A map in a text is a feature that shows…",
+        "choices": [
+          "place",
+          "rhyme scheme",
+          "the author’s age"
+        ],
+        "answer": "place",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q10",
+        "prompt": "The title should name…",
+        "choices": [
+          "the whole text",
+          "one tiny detail",
+          "the page count"
+        ],
+        "answer": "the whole text",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q11",
+        "prompt": "Captions are usually…",
+        "choices": [
+          "next to a picture",
+          "in the index",
+          "the theme"
+        ],
+        "answer": "next to a picture",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q12",
+        "prompt": "A timeline is best for…",
+        "choices": [
+          "order of events",
+          "defining a word",
+          "a character trait"
+        ],
+        "answer": "order of events",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q13",
+        "prompt": "Why authors add labels on a diagram:",
+        "choices": [
+          "to name each part",
+          "to entertain only",
+          "to hide the caption"
+        ],
+        "answer": "to name each part",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q14",
+        "prompt": "Table of contents vs index: contents is…",
+        "choices": [
+          "in chapter order",
+          "A–Z",
+          "under photos"
+        ],
+        "answer": "in chapter order",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q15",
+        "prompt": "A sidebar often…",
+        "choices": [
+          "adds a fact beside the main text",
+          "replaces the title",
+          "lists every page"
+        ],
+        "answer": "adds a fact beside the main text",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q16",
+        "prompt": "You need a pronunciation. Try the…",
+        "choices": [
+          "glossary",
+          "map key",
+          "heading font"
+        ],
+        "answer": "glossary",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q17",
+        "prompt": "A chart compares…",
+        "choices": [
+          "numbers or categories",
+          "themes of two novels only",
+          "page color"
+        ],
+        "answer": "numbers or categories",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q18",
+        "prompt": "If a heading says “Desert Animals,” the section should be about…",
+        "choices": [
+          "animals that live in deserts",
+          "rain forests",
+          "the author’s dog"
+        ],
+        "answer": "animals that live in deserts",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q19",
+        "prompt": "Features save time because they…",
+        "choices": [
+          "point you to the spot",
+          "remove the need to read",
+          "change the theme"
+        ],
+        "answer": "point you to the spot",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      },
+      {
+        "id": "read-3-feat-1-q20",
+        "prompt": "A photograph without a caption is harder to use because…",
+        "choices": [
+          "you may not know what it shows",
+          "it has no pixels",
+          "it cannot be printed"
+        ],
+        "answer": "you may not know what it shows",
+        "difficulty": 2,
+        "hint": "Use the tool around the sentences."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-sum-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Informational comprehension",
+    "skill_name": "Choose the best summary of a short passage",
+    "standard_code": "ELA.4.R.2.2 | RI.4.2",
+    "standard_codes": [
+      "ELA.4.R.2.2",
+      "RI.4.2"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "A summary restates the main idea plus the key supports in fewer words. It drops examples that only decorate. It does not add new opinions.",
+      "worked_example": "Passage: bees pollinate, make honey, live in hives. Summary: Bees live in groups and help plants make seeds — not “I like honey.”"
+    },
+    "question_bank": [
+      {
+        "id": "read-4-sum-1-q1",
+        "prompt": "A summary should include…",
+        "choices": [
+          "the main idea and key supports",
+          "every adjective",
+          "your opinion"
+        ],
+        "answer": "the main idea and key supports",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q2",
+        "prompt": "A summary should drop…",
+        "choices": [
+          "tiny extra examples",
+          "the central idea",
+          "the topic"
+        ],
+        "answer": "tiny extra examples",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q3",
+        "prompt": "Which is a summary, not a retell of one scene?",
+        "choices": [
+          "The article explains how storms form and why they weaken over land.",
+          "First the wind blew. Then a hat flew.",
+          "I was scared."
+        ],
+        "answer": "The article explains how storms form and why they weaken over land.",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q4",
+        "prompt": "“I think this is cool” in a summary is…",
+        "choices": [
+          "an opinion that does not belong",
+          "a key support",
+          "a heading"
+        ],
+        "answer": "an opinion that does not belong",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q5",
+        "prompt": "Best summary length vs the passage:",
+        "choices": [
+          "shorter",
+          "longer",
+          "exactly the same words"
+        ],
+        "answer": "shorter",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q6",
+        "prompt": "If you copy four full sentences, you wrote…",
+        "choices": [
+          "a lift, not a summary",
+          "a perfect summary",
+          "a caption"
+        ],
+        "answer": "a lift, not a summary",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q7",
+        "prompt": "Key support means…",
+        "choices": [
+          "a detail the main idea needs",
+          "the funniest line",
+          "the last word"
+        ],
+        "answer": "a detail the main idea needs",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q8",
+        "prompt": "A title can help a summary by…",
+        "choices": [
+          "naming the topic",
+          "replacing evidence",
+          "listing page numbers"
+        ],
+        "answer": "naming the topic",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q9",
+        "prompt": "Two articles, one summary each. Good check:",
+        "choices": [
+          "Could a classmate who did not read it follow?",
+          "Did I use the word very?",
+          "Is it in ink?"
+        ],
+        "answer": "Could a classmate who did not read it follow?",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q10",
+        "prompt": "Which belongs in a summary of a whale article?",
+        "choices": [
+          "Whales are mammals that must surface for air.",
+          "The photo is pretty.",
+          "My uncle saw a dolphin."
+        ],
+        "answer": "Whales are mammals that must surface for air.",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q11",
+        "prompt": "Retell vs summary: retell is…",
+        "choices": [
+          "more blow-by-blow",
+          "always shorter",
+          "only headings"
+        ],
+        "answer": "more blow-by-blow",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q12",
+        "prompt": "Adding a fact the text never gave makes a summary…",
+        "choices": [
+          "inaccurate",
+          "stronger",
+          "a glossary"
+        ],
+        "answer": "inaccurate",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q13",
+        "prompt": "Order in a summary should follow…",
+        "choices": [
+          "the text’s logic",
+          "alphabetical words",
+          "who spoke first at lunch"
+        ],
+        "answer": "the text’s logic",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q14",
+        "prompt": "A good first sentence of a summary often…",
+        "choices": [
+          "states the main idea",
+          "asks a riddle",
+          "quotes a joke"
+        ],
+        "answer": "states the main idea",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q15",
+        "prompt": "“In conclusion I loved it” is…",
+        "choices": [
+          "not a summary move",
+          "the main idea",
+          "evidence"
+        ],
+        "answer": "not a summary move",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q16",
+        "prompt": "Three details, one is a date of a side event. Drop…",
+        "choices": [
+          "the side date if it is not needed",
+          "the main cause",
+          "the topic word"
+        ],
+        "answer": "the side date if it is not needed",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q17",
+        "prompt": "Summaries use…",
+        "choices": [
+          "your words plus the author’s ideas",
+          "only the author’s adjectives",
+          "emojis"
+        ],
+        "answer": "your words plus the author’s ideas",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q18",
+        "prompt": "If two supports fight the heading, trust…",
+        "choices": [
+          "the body that is consistent",
+          "the longest word",
+          "the caption font"
+        ],
+        "answer": "the body that is consistent",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q19",
+        "prompt": "A summary of steps should keep…",
+        "choices": [
+          "the order",
+          "every brand name",
+          "the author’s joke"
+        ],
+        "answer": "the order",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      },
+      {
+        "id": "read-4-sum-1-q20",
+        "prompt": "Pick the summary.",
+        "choices": [
+          "Otters use tools and stay in family groups.",
+          "The otter’s whisker twitched. Then it spun.",
+          "Otters are my favorite."
+        ],
+        "answer": "Otters use tools and stay in family groups.",
+        "difficulty": 2,
+        "hint": "Shorter, accurate, no new opinion."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-pov-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Literary comprehension",
+    "skill_name": "Contrast what two characters know or want",
+    "standard_code": "ELA.4.R.1.3 | RL.4.6",
+    "standard_codes": [
+      "ELA.4.R.1.3",
+      "RL.4.6"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Point of view also means what a character thinks. Two people can see the same event and want different things. Track who knows the secret.",
+      "worked_example": "Jada knows the gift is a bike. Leo still thinks it is a book. Their points of view differ on the same box."
+    },
+    "question_bank": [
+      {
+        "id": "read-4-pov-1-q1",
+        "prompt": "Jada knows the gift is a bike; Leo thinks it is a book. They differ because…",
+        "choices": [
+          "they do not know the same fact",
+          "the box is brown",
+          "it is Saturday"
+        ],
+        "answer": "they do not know the same fact",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q2",
+        "prompt": "A secret only one character knows creates…",
+        "choices": [
+          "dramatic irony / a gap in POV",
+          "a caption",
+          "a glossary"
+        ],
+        "answer": "dramatic irony / a gap in POV",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q3",
+        "prompt": "“I won’t go,” said Noor. “We’ll be fine,” said Ben. They differ in…",
+        "choices": [
+          "what they want or fear",
+          "their shoes",
+          "the chapter number"
+        ],
+        "answer": "what they want or fear",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q4",
+        "prompt": "To contrast two views, quote…",
+        "choices": [
+          "each character’s words or thoughts",
+          "the weather",
+          "the page color"
+        ],
+        "answer": "each character’s words or thoughts",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q5",
+        "prompt": "The narrator likes the fox; the hen fears it. Same fox, different…",
+        "choices": [
+          "points of view",
+          "settings",
+          "fonts"
+        ],
+        "answer": "points of view",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q6",
+        "prompt": "A fair contrast uses…",
+        "choices": [
+          "both sides",
+          "only the hero",
+          "the title"
+        ],
+        "answer": "both sides",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q7",
+        "prompt": "If the text never shows Mina’s thoughts, do not claim…",
+        "choices": [
+          "you know what Mina wants",
+          "Mina spoke once",
+          "there is a setting"
+        ],
+        "answer": "you know what Mina wants",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q8",
+        "prompt": "“Both were tired, but only Sage wanted to quit.” The contrast is…",
+        "choices": [
+          "goal, not energy",
+          "the trail length",
+          "boot size"
+        ],
+        "answer": "goal, not energy",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q9",
+        "prompt": "First person makes it easy to miss…",
+        "choices": [
+          "the other character’s full view",
+          "the word I",
+          "quotation marks"
+        ],
+        "answer": "the other character’s full view",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q10",
+        "prompt": "A letter from each sister about the same week will likely…",
+        "choices": [
+          "stress different details",
+          "use the same verbs",
+          "list the same groceries"
+        ],
+        "answer": "stress different details",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q11",
+        "prompt": "Track who has the map. That is tracking…",
+        "choices": [
+          "knowledge",
+          "rhyme",
+          "captions"
+        ],
+        "answer": "knowledge",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q12",
+        "prompt": "Two reviews of one play disagree. That is…",
+        "choices": [
+          "point of view",
+          "setting only",
+          "meter"
+        ],
+        "answer": "point of view",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q13",
+        "prompt": "“He’s stealing,” thought Cal. The bag was Cal’s brother’s. Cal’s view is…",
+        "choices": [
+          "mistaken",
+          "a theme",
+          "an index"
+        ],
+        "answer": "mistaken",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q14",
+        "prompt": "Best question:",
+        "choices": [
+          "What does each character want here?",
+          "How many commas?",
+          "What font?"
+        ],
+        "answer": "What does each character want here?",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q15",
+        "prompt": "A narrator who calls a town “home” may be…",
+        "choices": [
+          "closer to that place than a tourist narrator",
+          "wrong about maps",
+          "the index"
+        ],
+        "answer": "closer to that place than a tourist narrator",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q16",
+        "prompt": "When goals clash, the plot often…",
+        "choices": [
+          "tightens",
+          "lists features",
+          "defines words"
+        ],
+        "answer": "tightens",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q17",
+        "prompt": "Do not mix up narrator and character when…",
+        "choices": [
+          "a side character is talking",
+          "a heading appears",
+          "a map is printed"
+        ],
+        "answer": "a side character is talking",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q18",
+        "prompt": "“We should tell,” vs “We should hide it.” Contrast in…",
+        "choices": [
+          "choice",
+          "setting weather",
+          "chapter title"
+        ],
+        "answer": "choice",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q19",
+        "prompt": "Evidence of a view is…",
+        "choices": [
+          "what they say, do, or think",
+          "the author’s birthday",
+          "the ISBN"
+        ],
+        "answer": "what they say, do, or think",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      },
+      {
+        "id": "read-4-pov-1-q20",
+        "prompt": "If both laugh at the same joke, their views on that joke…",
+        "choices": [
+          "align",
+          "must be theme",
+          "are captions"
+        ],
+        "answer": "align",
+        "difficulty": 2,
+        "hint": "Who knows what, and who wants what."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-5-root-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "5",
+    "strand": "Vocabulary & word study",
+    "skill_name": "Use a Greek or Latin root to mean an unfamiliar word",
+    "standard_code": "ELA.5.V.1.2 | L.5.4.b",
+    "standard_codes": [
+      "ELA.5.V.1.2",
+      "L.5.4.b"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Roots travel. spect = look, struct = build, port = carry, scrib/script = write, phon = sound. Prefix and suffix ride on the root.",
+      "worked_example": "Inspect = look into. Spect = look. Portable = can be carried."
+    },
+    "question_bank": [
+      {
+        "id": "read-5-root-1-q1",
+        "prompt": "spect most nearly means…",
+        "choices": [
+          "look",
+          "carry",
+          "write"
+        ],
+        "answer": "look",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q2",
+        "prompt": "port most nearly means…",
+        "choices": [
+          "carry",
+          "light",
+          "water"
+        ],
+        "answer": "carry",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q3",
+        "prompt": "struct most nearly means…",
+        "choices": [
+          "build",
+          "sleep",
+          "eat"
+        ],
+        "answer": "build",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q4",
+        "prompt": "scrib/script most nearly means…",
+        "choices": [
+          "write",
+          "jump",
+          "cut"
+        ],
+        "answer": "write",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q5",
+        "prompt": "phon most nearly means…",
+        "choices": [
+          "sound",
+          "color",
+          "time"
+        ],
+        "answer": "sound",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q6",
+        "prompt": "Inspect is closest to…",
+        "choices": [
+          "look into carefully",
+          "carry away",
+          "build quickly"
+        ],
+        "answer": "look into carefully",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q7",
+        "prompt": "A portable radio is one you can…",
+        "choices": [
+          "carry",
+          "plant",
+          "freeze"
+        ],
+        "answer": "carry",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q8",
+        "prompt": "A construction crew’s job is to…",
+        "choices": [
+          "build",
+          "sing",
+          "erase"
+        ],
+        "answer": "build",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q9",
+        "prompt": "A manuscript is something…",
+        "choices": [
+          "written",
+          "sung only",
+          "eaten"
+        ],
+        "answer": "written",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q10",
+        "prompt": "A telephone carries…",
+        "choices": [
+          "sound from far away",
+          "bricks",
+          "rain"
+        ],
+        "answer": "sound from far away",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q11",
+        "prompt": "Spectator is a person who…",
+        "choices": [
+          "looks on",
+          "carries freight",
+          "builds roofs"
+        ],
+        "answer": "looks on",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q12",
+        "prompt": "Export means to…",
+        "choices": [
+          "carry out of a place",
+          "look inside",
+          "write over"
+        ],
+        "answer": "carry out of a place",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q13",
+        "prompt": "Reconstruct means to…",
+        "choices": [
+          "build again",
+          "look away",
+          "carry down"
+        ],
+        "answer": "build again",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q14",
+        "prompt": "Describe means to…",
+        "choices": [
+          "write or tell how something is",
+          "carry a box",
+          "look last"
+        ],
+        "answer": "write or tell how something is",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q15",
+        "prompt": "Symphony is built on…",
+        "choices": [
+          "sound",
+          "stone",
+          "time only"
+        ],
+        "answer": "sound",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q16",
+        "prompt": "If bio means life, biography is…",
+        "choices": [
+          "writing about a life",
+          "a building plan",
+          "a carried load"
+        ],
+        "answer": "writing about a life",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q17",
+        "prompt": "If geo means earth, geology is…",
+        "choices": [
+          "study of the earth",
+          "a look in a mirror",
+          "a loud sound"
+        ],
+        "answer": "study of the earth",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q18",
+        "prompt": "Preview uses pre- plus view. It means…",
+        "choices": [
+          "look before",
+          "carry after",
+          "write during"
+        ],
+        "answer": "look before",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q19",
+        "prompt": "Disruption of a structure is harm to something…",
+        "choices": [
+          "built",
+          "whispered",
+          "carried only"
+        ],
+        "answer": "built",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      },
+      {
+        "id": "read-5-root-1-q20",
+        "prompt": "Pick the word that has “look.”",
+        "choices": [
+          "respect (look back at worth)",
+          "portable",
+          "phonics"
+        ],
+        "answer": "respect (look back at worth)",
+        "difficulty": 2,
+        "hint": "Find the root, then the affix."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-5-cmp-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "5",
+    "strand": "Informational comprehension",
+    "skill_name": "Compare how two short texts treat the same topic",
+    "standard_code": "ELA.5.R.3.3 | RI.5.6",
+    "standard_codes": [
+      "ELA.5.R.3.3",
+      "RI.5.6"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Same topic is not the same point. Ask what each author includes, leaves out, and wants you to believe. Use both texts, not the one you liked.",
+      "worked_example": "Text A lists jobs on a farm. Text B argues farms should pay more. Same topic, different purpose."
+    },
+    "question_bank": [
+      {
+        "id": "read-5-cmp-1-q1",
+        "prompt": "Text A lists farm jobs. Text B argues for higher pay. They share a topic but differ in…",
+        "choices": [
+          "purpose",
+          "paper color",
+          "word count only"
+        ],
+        "answer": "purpose",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q2",
+        "prompt": "To compare two texts, first find…",
+        "choices": [
+          "the shared topic",
+          "the longest word",
+          "the funnier joke"
+        ],
+        "answer": "the shared topic",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q3",
+        "prompt": "An author who leaves out risks may be…",
+        "choices": [
+          "pushing a brighter view",
+          "writing a glossary",
+          "counting pages"
+        ],
+        "answer": "pushing a brighter view",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q4",
+        "prompt": "Both texts mention bees. Only B gives colony-collapse numbers. B is more…",
+        "choices": [
+          "data-heavy",
+          "poetic",
+          "like a fable"
+        ],
+        "answer": "data-heavy",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q5",
+        "prompt": "A firsthand diary vs a textbook page. Difference in…",
+        "choices": [
+          "point of view and closeness",
+          "the existence of bees",
+          "ink"
+        ],
+        "answer": "point of view and closeness",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q6",
+        "prompt": "If A entertains and B instructs, the reader should…",
+        "choices": [
+          "not expect the same job from each",
+          "merge them into one narrator",
+          "ignore headings"
+        ],
+        "answer": "not expect the same job from each",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q7",
+        "prompt": "Best comparison sentence:",
+        "choices": [
+          "A explains the process; B argues a rule should change.",
+          "Both have words.",
+          "B is longer."
+        ],
+        "answer": "A explains the process; B argues a rule should change.",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q8",
+        "prompt": "A photo essay vs an interview. Unique to the interview:",
+        "choices": [
+          "quoted voice",
+          "pictures only",
+          "a map key only"
+        ],
+        "answer": "quoted voice",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q9",
+        "prompt": "When facts conflict, a reader should…",
+        "choices": [
+          "check which source is closer to evidence",
+          "pick the nicer cover",
+          "average the fonts"
+        ],
+        "answer": "check which source is closer to evidence",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q10",
+        "prompt": "Two storm articles. Only one names wind speed. That one is…",
+        "choices": [
+          "more specific on force",
+          "a poem",
+          "a caption only"
+        ],
+        "answer": "more specific on force",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q11",
+        "prompt": "Purpose can differ even if…",
+        "choices": [
+          "the topic is identical",
+          "the title matches letter for letter",
+          "both use the word the"
+        ],
+        "answer": "the topic is identical",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q12",
+        "prompt": "A compare question wants…",
+        "choices": [
+          "alike and different",
+          "a retell of A only",
+          "your favorite"
+        ],
+        "answer": "alike and different",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q13",
+        "prompt": "Leaving out the other side of an argument is…",
+        "choices": [
+          "a choice that shapes the text",
+          "a printing error always",
+          "a caption"
+        ],
+        "answer": "a choice that shapes the text",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q14",
+        "prompt": "Text A: how volcanoes form. B: a town after an eruption. A is more…",
+        "choices": [
+          "process; B is more human impact",
+          "both jokes",
+          "both indexes"
+        ],
+        "answer": "process; B is more human impact",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q15",
+        "prompt": "Shared details show…",
+        "choices": [
+          "overlap",
+          "that one author copied a font",
+          "theme of a novel"
+        ],
+        "answer": "overlap",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q16",
+        "prompt": "A good note-taking move:",
+        "choices": [
+          "two columns: A only / both / B only",
+          "one long paragraph of feelings",
+          "copy A twice"
+        ],
+        "answer": "two columns: A only / both / B only",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q17",
+        "prompt": "If both conclude “wear a helmet,” they…",
+        "choices": [
+          "agree on a claim",
+          "must share every example",
+          "are poems"
+        ],
+        "answer": "agree on a claim",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q18",
+        "prompt": "Tone words like “disaster” vs “event” hint at…",
+        "choices": [
+          "attitude",
+          "page size",
+          "genre labels only"
+        ],
+        "answer": "attitude",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q19",
+        "prompt": "You need both texts when the question says…",
+        "choices": [
+          "compare / contrast / both authors",
+          "define this word",
+          "name the setting"
+        ],
+        "answer": "compare / contrast / both authors",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      },
+      {
+        "id": "read-5-cmp-1-q20",
+        "prompt": "A trap is summarizing only the text you…",
+        "choices": [
+          "preferred",
+          "annotated",
+          "finished second"
+        ],
+        "answer": "preferred",
+        "difficulty": 2,
+        "hint": "Same topic, different job or view."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-seq-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Text structure",
+    "skill_name": "Put informational steps in time order",
+    "standard_code": "ELA.3.R.2.1 | RI.3.3",
+    "standard_codes": [
+      "ELA.3.R.2.1",
+      "RI.3.3"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Sequence is order in time. Signal words: first, next, then, finally, before, after.",
+      "worked_example": "Plant the seed. Then water. Finally wait."
+    },
+    "question_bank": [
+      {
+        "id": "read-3-seq-1-q1",
+        "prompt": "First plant, then water, finally wait. Last step?",
+        "choices": [
+          "Wait",
+          "Plant",
+          "Open the shed"
+        ],
+        "answer": "Wait",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q2",
+        "prompt": "Which word best marks sequence?",
+        "choices": [
+          "then",
+          "instead",
+          "also"
+        ],
+        "answer": "then",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q3",
+        "prompt": "A recipe is usually organized by…",
+        "choices": [
+          "sequence",
+          "rhyme",
+          "theme"
+        ],
+        "answer": "sequence",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q4",
+        "prompt": "Before you slice the bread, you should…",
+        "choices": [
+          "bake it",
+          "eat it",
+          "name it"
+        ],
+        "answer": "bake it",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q5",
+        "prompt": "“Finally” most often points to…",
+        "choices": [
+          "the last step",
+          "the title",
+          "a caption"
+        ],
+        "answer": "the last step",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q6",
+        "prompt": "Mix, pour, bake. The middle step is…",
+        "choices": [
+          "pour",
+          "mix",
+          "bake"
+        ],
+        "answer": "pour",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q7",
+        "prompt": "Which set is out of order for washing hands?",
+        "choices": [
+          "dry, then soap, then water",
+          "wet, soap, rinse, dry",
+          "soap after water on"
+        ],
+        "answer": "dry, then soap, then water",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q8",
+        "prompt": "A life-cycle diagram is a kind of…",
+        "choices": [
+          "sequence",
+          "argument",
+          "joke"
+        ],
+        "answer": "sequence",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q9",
+        "prompt": "“After the bell” tells you…",
+        "choices": [
+          "when",
+          "why someone is kind",
+          "the theme"
+        ],
+        "answer": "when",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q10",
+        "prompt": "To retell a how-to, keep…",
+        "choices": [
+          "the order",
+          "every adjective",
+          "the author’s joke"
+        ],
+        "answer": "the order",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q11",
+        "prompt": "First / next / last is a…",
+        "choices": [
+          "sequence frame",
+          "metaphor",
+          "glossary"
+        ],
+        "answer": "sequence frame",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q12",
+        "prompt": "You cannot put on the lid…",
+        "choices": [
+          "before the jar is filled if the steps say fill first",
+          "ever",
+          "on Tuesdays"
+        ],
+        "answer": "before the jar is filled if the steps say fill first",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q13",
+        "prompt": "A timeline is closest to…",
+        "choices": [
+          "sequence",
+          "a character trait",
+          "a simile"
+        ],
+        "answer": "sequence",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q14",
+        "prompt": "“Meanwhile” means…",
+        "choices": [
+          "at the same time",
+          "never",
+          "the opposite"
+        ],
+        "answer": "at the same time",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q15",
+        "prompt": "Which heading fits a sequence section?",
+        "choices": [
+          "Steps to fold the crane",
+          "Why cranes are white",
+          "A crane poem"
+        ],
+        "answer": "Steps to fold the crane",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q16",
+        "prompt": "If step 2 depends on step 1, swapping them…",
+        "choices": [
+          "breaks the process",
+          "improves style",
+          "changes the font"
+        ],
+        "answer": "breaks the process",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q17",
+        "prompt": "“In the morning… later that day…” marks…",
+        "choices": [
+          "time order",
+          "compare/contrast",
+          "cause only"
+        ],
+        "answer": "time order",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q18",
+        "prompt": "Pick the sequence sentence.",
+        "choices": [
+          "After thunder, we counted the seconds.",
+          "Thunder is loud.",
+          "I dislike storms."
+        ],
+        "answer": "After thunder, we counted the seconds.",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q19",
+        "prompt": "A numbered list in a science lab is usually…",
+        "choices": [
+          "sequence",
+          "theme",
+          "dialogue"
+        ],
+        "answer": "sequence",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      },
+      {
+        "id": "read-3-seq-1-q20",
+        "prompt": "Last in “seed → sprout → plant” is…",
+        "choices": [
+          "plant",
+          "seed",
+          "soil"
+        ],
+        "answer": "plant",
+        "difficulty": 2,
+        "hint": "Time order. First, then, last."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-set-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Literary comprehension",
+    "skill_name": "Name the setting and why it matters to the problem",
+    "standard_code": "ELA.3.R.1.1 | RL.3.3",
+    "standard_codes": [
+      "ELA.3.R.1.1",
+      "RL.3.3"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Setting is where and when. It can make a problem harder or easier.",
+      "worked_example": "Sam is at a lake at dusk. That is why he cannot find the path."
+    },
+    "question_bank": [
+      {
+        "id": "read-3-set-1-q1",
+        "prompt": "Sam is at a lake at dusk and cannot see the path. Setting is…",
+        "choices": [
+          "the lake at dusk",
+          "Sam",
+          "the path’s name"
+        ],
+        "answer": "the lake at dusk",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q2",
+        "prompt": "Setting answers…",
+        "choices": [
+          "where and when",
+          "who is kind",
+          "what the lesson is"
+        ],
+        "answer": "where and when",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q3",
+        "prompt": "A story in a silent library makes whispering…",
+        "choices": [
+          "fit the place",
+          "a metaphor only",
+          "the theme always"
+        ],
+        "answer": "fit the place",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q4",
+        "prompt": "Which is setting, not character?",
+        "choices": [
+          "a crowded train at dawn",
+          "Maya is generous",
+          "a theme about honesty"
+        ],
+        "answer": "a crowded train at dawn",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q5",
+        "prompt": "Moving the same plot from a pool to a desert would change…",
+        "choices": [
+          "the problem’s details",
+          "the page count",
+          "the author’s birthday"
+        ],
+        "answer": "the problem’s details",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q6",
+        "prompt": "“Long ago in a small port” tells…",
+        "choices": [
+          "time and place",
+          "the villain’s trait",
+          "the glossary"
+        ],
+        "answer": "time and place",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q7",
+        "prompt": "Night + no lantern makes finding a key…",
+        "choices": [
+          "harder",
+          "a caption",
+          "a heading"
+        ],
+        "answer": "harder",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q8",
+        "prompt": "The cafeteria at lunch is a setting that includes…",
+        "choices": [
+          "place and time of day",
+          "only the hero’s name",
+          "a root word"
+        ],
+        "answer": "place and time of day",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q9",
+        "prompt": "If the storm is the reason they stay inside, setting is…",
+        "choices": [
+          "driving the plot",
+          "unrelated decoration",
+          "the index"
+        ],
+        "answer": "driving the plot",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q10",
+        "prompt": "Pick the setting sentence.",
+        "choices": [
+          "The attic smelled like dust in July.",
+          "She was brave.",
+          "Honesty matters."
+        ],
+        "answer": "The attic smelled like dust in July.",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q11",
+        "prompt": "A map in a novel often supports…",
+        "choices": [
+          "setting",
+          "meter",
+          "a claim in an ad"
+        ],
+        "answer": "setting",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q12",
+        "prompt": "When can be a year, a season, or…",
+        "choices": [
+          "a time of day",
+          "a trait",
+          "a suffix"
+        ],
+        "answer": "a time of day",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q13",
+        "prompt": "Two settings in one chapter mean…",
+        "choices": [
+          "the characters moved or time passed",
+          "the theme flipped",
+          "the book ended"
+        ],
+        "answer": "the characters moved or time passed",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q14",
+        "prompt": "Why writers describe weather:",
+        "choices": [
+          "it can shape what characters can do",
+          "it replaces dialogue",
+          "it is the narrator"
+        ],
+        "answer": "it can shape what characters can do",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q15",
+        "prompt": "“On the space station” is…",
+        "choices": [
+          "place",
+          "theme",
+          "evidence in science class only"
+        ],
+        "answer": "place",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q16",
+        "prompt": "A problem caused by high tide depends on…",
+        "choices": [
+          "setting",
+          "a prefix",
+          "the table of contents"
+        ],
+        "answer": "setting",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q17",
+        "prompt": "Character vs setting: “anxious” is…",
+        "choices": [
+          "character",
+          "setting",
+          "caption"
+        ],
+        "answer": "character",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q18",
+        "prompt": "“Winter of 1900” is…",
+        "choices": [
+          "when",
+          "who",
+          "why as theme"
+        ],
+        "answer": "when",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q19",
+        "prompt": "If you can drop the place and nothing changes, the setting is…",
+        "choices": [
+          "weakly tied to the plot",
+          "the theme",
+          "first person"
+        ],
+        "answer": "weakly tied to the plot",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      },
+      {
+        "id": "read-3-set-1-q20",
+        "prompt": "Best setting question:",
+        "choices": [
+          "Where and when is this happening, and so what?",
+          "How many pages?",
+          "What font?"
+        ],
+        "answer": "Where and when is this happening, and so what?",
+        "difficulty": 2,
+        "hint": "Where, when, and how that changes the problem."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-3-poe-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "3",
+    "strand": "Literary comprehension",
+    "skill_name": "Hear rhyme and rhythm in a short poem",
+    "standard_code": "ELA.3.R.1.4 | RL.3.5",
+    "standard_codes": [
+      "ELA.3.R.1.4",
+      "RL.3.5"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Rhyme is matching end sounds. Rhythm is the beat you can tap.",
+      "worked_example": "cat / hat rhyme. Tap the beat in the line to feel rhythm."
+    },
+    "question_bank": [
+      {
+        "id": "read-3-poe-1-q1",
+        "prompt": "Which pair rhymes?",
+        "choices": [
+          "light / night",
+          "light / lake",
+          "light / little"
+        ],
+        "answer": "light / night",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q2",
+        "prompt": "Rhythm is the poem’s…",
+        "choices": [
+          "beat",
+          "title font",
+          "page number"
+        ],
+        "answer": "beat",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q3",
+        "prompt": "A stanza is…",
+        "choices": [
+          "a group of lines",
+          "a caption",
+          "a root"
+        ],
+        "answer": "a group of lines",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q4",
+        "prompt": "Line breaks make you…",
+        "choices": [
+          "pause with your eyes and voice",
+          "skip the meaning",
+          "count chapters"
+        ],
+        "answer": "pause with your eyes and voice",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q5",
+        "prompt": "Which pair does not rhyme?",
+        "choices": [
+          "moon / man",
+          "moon / June",
+          "moon / spoon"
+        ],
+        "answer": "moon / man",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q6",
+        "prompt": "Repeated first sounds (slippery silver) are…",
+        "choices": [
+          "alliteration",
+          "captions",
+          "indexes"
+        ],
+        "answer": "alliteration",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q7",
+        "prompt": "A poet repeats a line to…",
+        "choices": [
+          "make a beat or an idea stick",
+          "fill the page",
+          "define a glossary word"
+        ],
+        "answer": "make a beat or an idea stick",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q8",
+        "prompt": "Rhyme is about…",
+        "choices": [
+          "sound",
+          "letter count only",
+          "the author’s age"
+        ],
+        "answer": "sound",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q9",
+        "prompt": "“The wind whispered” in a poem is also…",
+        "choices": [
+          "personification",
+          "an index",
+          "a timeline"
+        ],
+        "answer": "personification",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q10",
+        "prompt": "You tap the desk as you read to feel…",
+        "choices": [
+          "rhythm",
+          "setting’s year",
+          "a claim"
+        ],
+        "answer": "rhythm",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q11",
+        "prompt": "A couplet is…",
+        "choices": [
+          "two lines that often rhyme",
+          "a chapter",
+          "a diagram"
+        ],
+        "answer": "two lines that often rhyme",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q12",
+        "prompt": "Which is most poem-like?",
+        "choices": [
+          "short lines with a beat and image",
+          "a bus schedule",
+          "a glossary"
+        ],
+        "answer": "short lines with a beat and image",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q13",
+        "prompt": "End rhyme sits…",
+        "choices": [
+          "at the ends of lines",
+          "only in titles",
+          "in captions"
+        ],
+        "answer": "at the ends of lines",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q14",
+        "prompt": "If two lines share -ing endings but not the vowel, they may…",
+        "choices": [
+          "not truly rhyme",
+          "always rhyme",
+          "be captions"
+        ],
+        "answer": "not truly rhyme",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q15",
+        "prompt": "Imagery means the poem…",
+        "choices": [
+          "helps you picture with the senses",
+          "lists dates",
+          "argues a law"
+        ],
+        "answer": "helps you picture with the senses",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q16",
+        "prompt": "A refrain is…",
+        "choices": [
+          "a repeated line",
+          "the first word of a novel",
+          "a map key"
+        ],
+        "answer": "a repeated line",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q17",
+        "prompt": "Poets may skip punctuation so that…",
+        "choices": [
+          "the voice keeps moving",
+          "the theme vanishes",
+          "pages number themselves"
+        ],
+        "answer": "the voice keeps moving",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q18",
+        "prompt": "Pick the rhyming pair.",
+        "choices": [
+          "day / gray",
+          "day / dog",
+          "day / desk"
+        ],
+        "answer": "day / gray",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q19",
+        "prompt": "Reading a poem aloud helps you hear…",
+        "choices": [
+          "rhyme and rhythm",
+          "the index",
+          "the author’s email"
+        ],
+        "answer": "rhyme and rhythm",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      },
+      {
+        "id": "read-3-poe-1-q20",
+        "prompt": "A line that is far shorter than the last one can signal…",
+        "choices": [
+          "a punch or a pause",
+          "a missing page",
+          "third person"
+        ],
+        "answer": "a punch or a pause",
+        "difficulty": 2,
+        "hint": "Sound first: rhyme, beat, line break."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-mi-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Main idea & detail",
+    "skill_name": "Separate a central idea from a supporting detail in grade-4 text",
+    "standard_code": "ELA.4.R.2.2 | RI.4.2",
+    "standard_codes": [
+      "ELA.4.R.2.2",
+      "RI.4.2"
+    ],
+    "prerequisite_skills": [
+      "read-3-mi-1"
+    ],
+    "teach_content": {
+      "explanation": "Ask: if I delete this sentence, does the point collapse? If not, it was a detail.",
+      "worked_example": "Central idea: cities add green roofs to cut heat. Detail: one roof has 20,000 plants."
+    },
+    "question_bank": [
+      {
+        "id": "read-4-mi-1-q1",
+        "prompt": "Cities add green roofs to cut heat. One Chicago roof has 20,000 plants. Central idea?",
+        "choices": [
+          "Green roofs help cool cities",
+          "Chicago is a city",
+          "20,000 is a number"
+        ],
+        "answer": "Green roofs help cool cities",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q2",
+        "prompt": "A detail that can be deleted without losing the point is…",
+        "choices": [
+          "support, not the central idea",
+          "the title",
+          "the glossary"
+        ],
+        "answer": "support, not the central idea",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q3",
+        "prompt": "Which is a detail?",
+        "choices": [
+          "One roof holds 20,000 plants",
+          "Green roofs cut city heat",
+          "Cities look for cooler designs"
+        ],
+        "answer": "One roof holds 20,000 plants",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q4",
+        "prompt": "A heading that matches the central idea should name…",
+        "choices": [
+          "the whole point",
+          "one example city only",
+          "a photo credit"
+        ],
+        "answer": "the whole point",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q5",
+        "prompt": "If every sentence is about bats and sonar, the idea is about…",
+        "choices": [
+          "how bats sense",
+          "one cave in Texas only if that’s all",
+          "your opinion"
+        ],
+        "answer": "how bats sense",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q6",
+        "prompt": "A statistic is usually…",
+        "choices": [
+          "support",
+          "the theme of a fable",
+          "a stanza"
+        ],
+        "answer": "support",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q7",
+        "prompt": "Two details that do not fit the heading may mean…",
+        "choices": [
+          "the idea is wider or the heading is weak",
+          "the book is a poem",
+          "third person"
+        ],
+        "answer": "the idea is wider or the heading is weak",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q8",
+        "prompt": "Pick the central idea.",
+        "choices": [
+          "Wetlands clean water and buffer storms.",
+          "One heron stood still.",
+          "The photo is pretty."
+        ],
+        "answer": "Wetlands clean water and buffer storms.",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q9",
+        "prompt": "“For example” usually introduces…",
+        "choices": [
+          "a detail",
+          "the title",
+          "the theme"
+        ],
+        "answer": "a detail",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q10",
+        "prompt": "A concluding sentence that restates the point is close to…",
+        "choices": [
+          "the central idea",
+          "a caption under a map",
+          "a character trait"
+        ],
+        "answer": "the central idea",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q11",
+        "prompt": "Delete “In 2019 a pilot program began.” Did the idea survive? Then that sentence was…",
+        "choices": [
+          "a detail",
+          "the only idea",
+          "a rhyme"
+        ],
+        "answer": "a detail",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q12",
+        "prompt": "Central idea vs topic: topic is…",
+        "choices": [
+          "the subject word; idea is the point about it",
+          "longer always",
+          "a date"
+        ],
+        "answer": "the subject word; idea is the point about it",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q13",
+        "prompt": "Topic: glaciers. Weak idea:",
+        "choices": [
+          "Glaciers exist.",
+          "Glaciers store fresh water and are shrinking.",
+          "Melt changes rivers."
+        ],
+        "answer": "Glaciers exist.",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q14",
+        "prompt": "Three details about seeds traveling. Idea?",
+        "choices": [
+          "Seeds move in several ways",
+          "One burr stuck to a sock",
+          "Wind is air"
+        ],
+        "answer": "Seeds move in several ways",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q15",
+        "prompt": "An idea can be implied when…",
+        "choices": [
+          "no sentence says it outright but all point there",
+          "the author used a comma",
+          "there is a map"
+        ],
+        "answer": "no sentence says it outright but all point there",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q16",
+        "prompt": "Best test:",
+        "choices": [
+          "What is this mostly teaching?",
+          "What is the longest word?",
+          "Who printed it?"
+        ],
+        "answer": "What is this mostly teaching?",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q17",
+        "prompt": "A sidebar fact is often…",
+        "choices": [
+          "extra detail",
+          "the only central idea",
+          "the narrator"
+        ],
+        "answer": "extra detail",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q18",
+        "prompt": "If the quiz asks “mostly about,” it wants…",
+        "choices": [
+          "central idea",
+          "a single date",
+          "your feeling"
+        ],
+        "answer": "central idea",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q19",
+        "prompt": "Two paragraphs, one idea: look for…",
+        "choices": [
+          "what both share",
+          "the funnier line",
+          "bold only"
+        ],
+        "answer": "what both share",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      },
+      {
+        "id": "read-4-mi-1-q20",
+        "prompt": "Pick the detail.",
+        "choices": [
+          "The pilot roof was planted in 2019.",
+          "Green roofs reduce heat.",
+          "Cities use plants on roofs to stay cooler."
+        ],
+        "answer": "The pilot roof was planted in 2019.",
+        "difficulty": 2,
+        "hint": "Point vs example."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-mm-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Vocabulary & word study",
+    "skill_name": "Pick the meaning that fits the sentence for a multiple-meaning word",
+    "standard_code": "ELA.4.V.1.3 | L.4.4.a",
+    "standard_codes": [
+      "ELA.4.V.1.3",
+      "L.4.4.a"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Do not pick the first definition you know. Plug each meaning back into the sentence.",
+      "worked_example": "“The bat hung in the cave.” Not a baseball bat — the animal fits."
+    },
+    "question_bank": [
+      {
+        "id": "read-4-mm-1-q1",
+        "prompt": "The bat hung in the cave. Bat means…",
+        "choices": [
+          "the animal",
+          "a baseball club",
+          "a blink"
+        ],
+        "answer": "the animal",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q2",
+        "prompt": "She will park the car. Park means…",
+        "choices": [
+          "leave the car",
+          "a green playground",
+          "a bench"
+        ],
+        "answer": "leave the car",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q3",
+        "prompt": "A cold wave hit the coast. Wave means…",
+        "choices": [
+          "a moving swell of water",
+          "a hand greeting",
+          "a hair style only"
+        ],
+        "answer": "a moving swell of water",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q4",
+        "prompt": "Please book the room. Book means…",
+        "choices": [
+          "reserve",
+          "a novel",
+          "a library shelf"
+        ],
+        "answer": "reserve",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q5",
+        "prompt": "The spring in the toy bounced. Spring means…",
+        "choices": [
+          "a coil",
+          "the season",
+          "a water source"
+        ],
+        "answer": "a coil",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q6",
+        "prompt": "He sat on the bank. In a river story, bank means…",
+        "choices": [
+          "the side of the river",
+          "a place for money",
+          "a tilt"
+        ],
+        "answer": "the side of the river",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q7",
+        "prompt": "Turn off the light. Light means…",
+        "choices": [
+          "a lamp / illumination",
+          "not heavy",
+          "pale color"
+        ],
+        "answer": "a lamp / illumination",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q8",
+        "prompt": "The box is light. Light means…",
+        "choices": [
+          "not heavy",
+          "a lamp",
+          "sunrise"
+        ],
+        "answer": "not heavy",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q9",
+        "prompt": "They saw a crane on the dock. In a bird text, crane is…",
+        "choices": [
+          "the bird",
+          "the lifting machine",
+          "a stretch"
+        ],
+        "answer": "the bird",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q10",
+        "prompt": "A crane lifted the beam. Crane is…",
+        "choices": [
+          "the machine",
+          "the bird",
+          "a neck exercise"
+        ],
+        "answer": "the machine",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q11",
+        "prompt": "Check the match. In soccer, match means…",
+        "choices": [
+          "the game",
+          "a stick that lights",
+          "a pair of socks"
+        ],
+        "answer": "the game",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q12",
+        "prompt": "Strike the match. Match means…",
+        "choices": [
+          "the stick that lights",
+          "the game",
+          "a twin"
+        ],
+        "answer": "the stick that lights",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q13",
+        "prompt": "The story has a fair ending. Fair means…",
+        "choices": [
+          "just",
+          "a carnival",
+          "pale"
+        ],
+        "answer": "just",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q14",
+        "prompt": "We went to the fair. Fair means…",
+        "choices": [
+          "a carnival",
+          "just",
+          "pale"
+        ],
+        "answer": "a carnival",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q15",
+        "prompt": "A ring woke her. Ring means…",
+        "choices": [
+          "a sound",
+          "jewelry",
+          "a circle of friends"
+        ],
+        "answer": "a sound",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q16",
+        "prompt": "The ring fit her finger. Ring means…",
+        "choices": [
+          "jewelry",
+          "a phone sound",
+          "a boxing arena"
+        ],
+        "answer": "jewelry",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q17",
+        "prompt": "Watch the pot. Watch means…",
+        "choices": [
+          "look after",
+          "a timepiece",
+          "a guard troop only"
+        ],
+        "answer": "look after",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q18",
+        "prompt": "Her watch stopped. Watch means…",
+        "choices": [
+          "a timepiece",
+          "look after",
+          "a tower"
+        ],
+        "answer": "a timepiece",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q19",
+        "prompt": "The test is hard. Hard means…",
+        "choices": [
+          "difficult",
+          "not soft",
+          "firmly"
+        ],
+        "answer": "difficult",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      },
+      {
+        "id": "read-4-mm-1-q20",
+        "prompt": "The bench is hard. Hard means…",
+        "choices": [
+          "not soft",
+          "difficult",
+          "harshly"
+        ],
+        "answer": "not soft",
+        "difficulty": 2,
+        "hint": "Plug the meaning back into the sentence."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-4-flu-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "4",
+    "strand": "Fluency",
+    "skill_name": "Choose the reading that matches punctuation and phrasing",
+    "standard_code": "ELA.4.F.1.4 | RF.4.4.b",
+    "standard_codes": [
+      "ELA.4.F.1.4",
+      "RF.4.4.b"
+    ],
+    "prerequisite_skills": [],
+    "teach_content": {
+      "explanation": "Fluency is not speed alone. Periods drop the voice. Questions lift it. Commas are short rests.",
+      "worked_example": "“Wait,” she said, “we forgot the key.” Two short groups, not one rush."
+    },
+    "question_bank": [
+      {
+        "id": "read-4-flu-1-q1",
+        "prompt": "A period usually tells you to…",
+        "choices": [
+          "stop and drop your voice",
+          "keep rushing",
+          "whisper"
+        ],
+        "answer": "stop and drop your voice",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q2",
+        "prompt": "A question mark tells you to…",
+        "choices": [
+          "lift your voice at the end",
+          "stop like a period with no lift",
+          "skip the line"
+        ],
+        "answer": "lift your voice at the end",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q3",
+        "prompt": "A comma is a…",
+        "choices": [
+          "short rest",
+          "full stop",
+          "volume spike always"
+        ],
+        "answer": "short rest",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q4",
+        "prompt": "An exclamation mark adds…",
+        "choices": [
+          "energy or surprise",
+          "a caption",
+          "a glossary"
+        ],
+        "answer": "energy or surprise",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q5",
+        "prompt": "Quotation marks mean you should…",
+        "choices": [
+          "change to the speaker’s voice a little",
+          "skip those words",
+          "read faster always"
+        ],
+        "answer": "change to the speaker’s voice a little",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q6",
+        "prompt": "Which phrasing matches “Wait, we forgot the key.”?",
+        "choices": [
+          "Wait / we forgot the key",
+          "Wait we / forgot the key",
+          "Waitweforgot thekey"
+        ],
+        "answer": "Wait / we forgot the key",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q7",
+        "prompt": "Reading word-by-word without phrases sounds…",
+        "choices": [
+          "choppy",
+          "fluent",
+          "like a heading"
+        ],
+        "answer": "choppy",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q8",
+        "prompt": "Bold words should be…",
+        "choices": [
+          "a bit stronger",
+          "skipped",
+          "whispered always"
+        ],
+        "answer": "a bit stronger",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q9",
+        "prompt": "To sound fluent you also need…",
+        "choices": [
+          "to understand the words",
+          "to beat a timer only",
+          "to skip punctuation"
+        ],
+        "answer": "to understand the words",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q10",
+        "prompt": "A dash can mark…",
+        "choices": [
+          "an abrupt break",
+          "a chapter",
+          "an index"
+        ],
+        "answer": "an abrupt break",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q11",
+        "prompt": "Ellipsis (…) often means…",
+        "choices": [
+          "a trailing off or pause",
+          "yell",
+          "a new stanza title"
+        ],
+        "answer": "a trailing off or pause",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q12",
+        "prompt": "If meaning is lost, first…",
+        "choices": [
+          "slow down and look at punctuation",
+          "speed up",
+          "close the book"
+        ],
+        "answer": "slow down and look at punctuation",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q13",
+        "prompt": "Dialogue tags like “she whispered” tell you to…",
+        "choices": [
+          "soften the quoted line",
+          "shout",
+          "ignore commas"
+        ],
+        "answer": "soften the quoted line",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q14",
+        "prompt": "A list with commas should be read as…",
+        "choices": [
+          "separate items",
+          "one mashed word",
+          "a rhyme"
+        ],
+        "answer": "separate items",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q15",
+        "prompt": "Fluency practice is useful when you…",
+        "choices": [
+          "reread a passage you already decoded",
+          "see the page once at top speed",
+          "cover the punctuation"
+        ],
+        "answer": "reread a passage you already decoded",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q16",
+        "prompt": "Which is the better read of a question?",
+        "choices": [
+          "Are we late? (voice up)",
+          "Are we late. (voice down hard)",
+          "Are. We. Late"
+        ],
+        "answer": "Are we late? (voice up)",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q17",
+        "prompt": "Line breaks in poems also act like…",
+        "choices": [
+          "punctuation for the voice",
+          "captions",
+          "indexes"
+        ],
+        "answer": "punctuation for the voice",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q18",
+        "prompt": "Reading too fast often causes…",
+        "choices": [
+          "missed meaning",
+          "better theme",
+          "a new setting"
+        ],
+        "answer": "missed meaning",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q19",
+        "prompt": "A semicolon is a rest…",
+        "choices": [
+          "stronger than a comma, weaker than a period",
+          "the same as a question",
+          "a shout"
+        ],
+        "answer": "stronger than a comma, weaker than a period",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      },
+      {
+        "id": "read-4-flu-1-q20",
+        "prompt": "The goal of fluency here is…",
+        "choices": [
+          "sound like speech that makes sense",
+          "win a race",
+          "memorize fonts"
+        ],
+        "answer": "sound like speech that makes sense",
+        "difficulty": 2,
+        "hint": "Punctuation is the score for your voice."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-5-ci-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "5",
+    "strand": "Main idea & detail",
+    "skill_name": "State a central idea that covers more than one paragraph",
+    "standard_code": "ELA.5.R.2.2 | RI.5.2",
+    "standard_codes": [
+      "ELA.5.R.2.2",
+      "RI.5.2"
+    ],
+    "prerequisite_skills": [
+      "read-4-mi-1"
+    ],
+    "teach_content": {
+      "explanation": "The central idea has to cover the stack of paragraphs, not the loudest example in paragraph two.",
+      "worked_example": "P1 plastic in rivers. P2 in fish. P3 policy. Idea: plastic moves through water and people try to stop it."
+    },
+    "question_bank": [
+      {
+        "id": "read-5-ci-1-q1",
+        "prompt": "P1 rivers, P2 fish, P3 policy on plastic. Central idea?",
+        "choices": [
+          "Plastic waste moves through water and people are trying to stop it",
+          "One fish ate a bottle cap",
+          "Policies are long"
+        ],
+        "answer": "Plastic waste moves through water and people are trying to stop it",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q2",
+        "prompt": "A central idea that only fits paragraph 2 is…",
+        "choices": [
+          "too narrow",
+          "perfect",
+          "a theme of a fable"
+        ],
+        "answer": "too narrow",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q3",
+        "prompt": "Across paragraphs, repeated words often mark…",
+        "choices": [
+          "the idea",
+          "the caption font",
+          "the narrator"
+        ],
+        "answer": "the idea",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q4",
+        "prompt": "A section heading is a clue to…",
+        "choices": [
+          "that section’s piece of the idea",
+          "the author’s age",
+          "meter"
+        ],
+        "answer": "that section’s piece of the idea",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q5",
+        "prompt": "If P3 contradicts P1 with no explanation, the idea is…",
+        "choices": [
+          "unclear or the text is flawed",
+          "automatically the last paragraph",
+          "a poem"
+        ],
+        "answer": "unclear or the text is flawed",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q6",
+        "prompt": "Best covering sentence?",
+        "choices": [
+          "Scientists track plastic from rivers into food and then test fixes.",
+          "A turtle was sad.",
+          "The photo is blue."
+        ],
+        "answer": "Scientists track plastic from rivers into food and then test fixes.",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q7",
+        "prompt": "Details that appear once and never return are often…",
+        "choices": [
+          "local support",
+          "the only idea",
+          "the title"
+        ],
+        "answer": "local support",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q8",
+        "prompt": "To write the idea in your own words you must…",
+        "choices": [
+          "drop extra names unless needed",
+          "copy paragraph 1",
+          "list every date"
+        ],
+        "answer": "drop extra names unless needed",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q9",
+        "prompt": "Two headings: “Problem” and “What cities tried.” The stack is about…",
+        "choices": [
+          "a problem and responses",
+          "only cities’ names",
+          "a character"
+        ],
+        "answer": "a problem and responses",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q10",
+        "prompt": "A good check: cover each paragraph and ask…",
+        "choices": [
+          "does my idea still need this part?",
+          "is the font nice?",
+          "does it rhyme?"
+        ],
+        "answer": "does my idea still need this part?",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q11",
+        "prompt": "An implied idea across pages is still…",
+        "choices": [
+          "allowed if the parts point there",
+          "illegal",
+          "a glossary"
+        ],
+        "answer": "allowed if the parts point there",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q12",
+        "prompt": "Which is too broad?",
+        "choices": [
+          "People do things.",
+          "Plastic in water harms animals and draws new rules.",
+          "Rivers carry waste into the sea."
+        ],
+        "answer": "People do things.",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q13",
+        "prompt": "Which is too narrow?",
+        "choices": [
+          "One net program in one bay",
+          "Waste travels and communities respond",
+          "Plastic shows up in fish"
+        ],
+        "answer": "One net program in one bay",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q14",
+        "prompt": "Transition “on the other hand” may add…",
+        "choices": [
+          "a second piece the idea must include",
+          "a caption",
+          "a stanza"
+        ],
+        "answer": "a second piece the idea must include",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q15",
+        "prompt": "Quotes in P2 support the idea if they…",
+        "choices": [
+          "back the same point",
+          "are famous",
+          "are long"
+        ],
+        "answer": "back the same point",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q16",
+        "prompt": "A chart in the section is usually…",
+        "choices": [
+          "support",
+          "a new unrelated text",
+          "the narrator’s feeling"
+        ],
+        "answer": "support",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q17",
+        "prompt": "If the question says “the article,” look…",
+        "choices": [
+          "across sections",
+          "at sentence one only",
+          "at the URL"
+        ],
+        "answer": "across sections",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q18",
+        "prompt": "Restating the idea at the end is…",
+        "choices": [
+          "common and helpful",
+          "always wrong",
+          "a simile"
+        ],
+        "answer": "common and helpful",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q19",
+        "prompt": "Pick the stack idea.",
+        "choices": [
+          "Bees struggle when habitat and chemicals rise together.",
+          "One bee sat on a daisy.",
+          "Yellow is pretty."
+        ],
+        "answer": "Bees struggle when habitat and chemicals rise together.",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      },
+      {
+        "id": "read-5-ci-1-q20",
+        "prompt": "Authors bury the idea when they…",
+        "choices": [
+          "lead with a story and land the point later",
+          "use page numbers",
+          "add an index"
+        ],
+        "answer": "lead with a story and land the point later",
+        "difficulty": 2,
+        "hint": "The idea must cover the stack."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  },
+  {
+    "id": "read-5-fig-1",
+    "subject": "Reading",
+    "grade_band": "3-5",
+    "grade_or_course": "5",
+    "strand": "Figurative language",
+    "skill_name": "Explain personification and hyperbole in context",
+    "standard_code": "ELA.5.R.3.1 | RL.5.4",
+    "standard_codes": [
+      "ELA.5.R.3.1",
+      "RL.5.4"
+    ],
+    "prerequisite_skills": [
+      "read-4-fig-1"
+    ],
+    "teach_content": {
+      "explanation": "Personification gives human action to a thing. Hyperbole is on-purpose exaggeration.",
+      "worked_example": "The wind hammered the door. I waited a million years."
+    },
+    "question_bank": [
+      {
+        "id": "read-5-fig-1-q1",
+        "prompt": "“The wind hammered the door.” This is…",
+        "choices": [
+          "personification",
+          "a measured fact",
+          "a caption"
+        ],
+        "answer": "personification",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q2",
+        "prompt": "“I waited a million years.” This is…",
+        "choices": [
+          "hyperbole",
+          "personification",
+          "a date"
+        ],
+        "answer": "hyperbole",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q3",
+        "prompt": "Personification always gives…",
+        "choices": [
+          "human action or feeling to a thing",
+          "a number",
+          "a heading"
+        ],
+        "answer": "human action or feeling to a thing",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q4",
+        "prompt": "Hyperbole is…",
+        "choices": [
+          "exaggeration",
+          "a map",
+          "third person"
+        ],
+        "answer": "exaggeration",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q5",
+        "prompt": "“The alarm screamed.” The alarm…",
+        "choices": [
+          "is written as if it can scream",
+          "has vocal cords",
+          "is a character’s name"
+        ],
+        "answer": "is written as if it can scream",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q6",
+        "prompt": "“This backpack weighs a ton.” Means it is…",
+        "choices": [
+          "very heavy",
+          "2,000 pounds",
+          "empty"
+        ],
+        "answer": "very heavy",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q7",
+        "prompt": "Which is literal?",
+        "choices": [
+          "The lake froze overnight.",
+          "The lake grabbed our boots.",
+          "We waited a million years to skate."
+        ],
+        "answer": "The lake froze overnight.",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q8",
+        "prompt": "“Time crawled.” Time is treated as…",
+        "choices": [
+          "something that can crawl",
+          "a clock brand",
+          "a caption"
+        ],
+        "answer": "something that can crawl",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q9",
+        "prompt": "Why use hyperbole?",
+        "choices": [
+          "To stress a feeling",
+          "To report a lab number",
+          "To list steps"
+        ],
+        "answer": "To stress a feeling",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q10",
+        "prompt": "Why use personification?",
+        "choices": [
+          "To make a scene feel alive",
+          "To define a glossary word",
+          "To number pages"
+        ],
+        "answer": "To make a scene feel alive",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q11",
+        "prompt": "“My phone died.” Everyday personification means…",
+        "choices": [
+          "the battery ran out",
+          "a funeral",
+          "a simile only"
+        ],
+        "answer": "the battery ran out",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q12",
+        "prompt": "Pick hyperbole.",
+        "choices": [
+          "He could eat a mountain of rice.",
+          "He ate two bowls.",
+          "Rice is a grain."
+        ],
+        "answer": "He could eat a mountain of rice.",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q13",
+        "prompt": "Pick personification.",
+        "choices": [
+          "The streets swallowed the parade.",
+          "The streets were crowded.",
+          "A parade has floats."
+        ],
+        "answer": "The streets swallowed the parade.",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q14",
+        "prompt": "“The sun smiled” is…",
+        "choices": [
+          "personification",
+          "hyperbole only",
+          "an index"
+        ],
+        "answer": "personification",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q15",
+        "prompt": "“I’ve told you a thousand times” is…",
+        "choices": [
+          "hyperbole",
+          "personification",
+          "setting"
+        ],
+        "answer": "hyperbole",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q16",
+        "prompt": "If you read hyperbole as fact you will…",
+        "choices": [
+          "miss the point",
+          "gain a measurement",
+          "find the theme automatically"
+        ],
+        "answer": "miss the point",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q17",
+        "prompt": "“Opportunity knocked.” Means…",
+        "choices": [
+          "a chance appeared",
+          "a fist hit wood",
+          "a neighbor visited"
+        ],
+        "answer": "a chance appeared",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q18",
+        "prompt": "Combining both: “The bored clock rolled its millionth tick.” Tick count is…",
+        "choices": [
+          "hyperbole; clock acting is personification",
+          "only setting",
+          "only evidence"
+        ],
+        "answer": "hyperbole; clock acting is personification",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q19",
+        "prompt": "Literal rewrite of “the wind hammered”:",
+        "choices": [
+          "The wind blew hard against the door",
+          "A person used a hammer",
+          "The door told a joke"
+        ],
+        "answer": "The wind blew hard against the door",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      },
+      {
+        "id": "read-5-fig-1-q20",
+        "prompt": "Figurative language is a problem when the task is…",
+        "choices": [
+          "a science measurement",
+          "picturing a storm",
+          "hearing a voice in a story"
+        ],
+        "answer": "a science measurement",
+        "difficulty": 2,
+        "hint": "Human action vs on-purpose stretch."
+      }
+    ],
+    "grade_band_lock": "3-5",
+    "status": "draft"
+  }
+]

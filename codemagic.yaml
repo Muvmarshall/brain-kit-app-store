@@ -1,0 +1,102 @@
+# Brain Kit — Codemagic starter (iOS Capacitor)
+# Place at GIT REPO ROOT when connecting Codemagic.
+# App Store Apple ID: REPLACE_AFTER_ASC_CREATE (ASC → App Information after create)
+# Codemagic Team integration name must match integrations.app_store_connect below.
+# Never put Apple passwords or .p8 contents in this file — use Codemagic Team integrations only.
+# PRICES NOT LOCKED — do not invent dollars for Complete IAP.
+
+workflows:
+  brain-kit-ios:
+    name: Brain Kit iOS
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: Brain Kit Codemagic
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.mikemarshall.brainkit
+      vars:
+        APP_STORE_APPLE_ID: "REPLACE_AFTER_ASC_CREATE"
+        XCODE_WORKSPACE: App.xcworkspace
+        XCODE_SCHEME: App
+      node: 20
+      xcode: latest
+    scripts:
+      - name: Install npm dependencies
+        script: |
+          set -e
+          if [ -d ios-wrap ]; then cd ios-wrap; fi
+          npm ci || npm install
+      - name: Ensure ios platform exists
+        script: |
+          set -e
+          if [ -d ios-wrap ]; then cd ios-wrap; fi
+          if [ ! -d ios ]; then npx cap add ios; fi
+          npx cap sync ios
+          # Apple Spring 2027: MinimumOSVersion must be 15.0+
+          /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion 15.0" ios/App/App/Info.plist 2>/dev/null || true
+          # HTTPS-only / system TLS: declare exempt encryption for TestFlight compliance
+          /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" ios/App/App/Info.plist 2>/dev/null \
+            || /usr/libexec/PlistBuddy -c "Set :ITSAppUsesNonExemptEncryption false" ios/App/App/Info.plist
+          if [ -f ios/App/App.xcodeproj/project.pbxproj ]; then
+            sed -i.bak 's/IPHONEOS_DEPLOYMENT_TARGET = [0-9.]*;/IPHONEOS_DEPLOYMENT_TARGET = 15.0;/g' ios/App/App.xcodeproj/project.pbxproj
+          fi
+      - name: CocoaPods
+        script: |
+          set -e
+          if [ -d ios-wrap ]; then cd ios-wrap; fi
+          cd ios/App && pod install
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: |
+          set -e
+          if [ -d ios-wrap ]; then cd ios-wrap; fi
+          cd ios/App
+          # Take the higher of App Store + TestFlight so we never collide with an uploaded build
+          AS=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID" || echo 0)
+          TF=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" || echo 0)
+          AS=${AS:-0}; TF=${TF:-0}
+          [ "$AS" = "None" ] && AS=0
+          [ "$TF" = "None" ] && TF=0
+          LATEST=$AS
+          if [ "$TF" -gt "$LATEST" ] 2>/dev/null; then LATEST=$TF; fi
+          if ! [[ "$LATEST" =~ ^[0-9]+$ ]]; then LATEST=0; fi
+          NEXT=$((LATEST + 1))
+          if [ "$NEXT" -lt 1 ]; then NEXT=1; fi
+          echo "Using CFBundleVersion=$NEXT (AS=$AS TF=$TF)"
+          agvtool new-version -all "$NEXT"
+      - name: Build IPA
+        script: |
+          set -e
+          if [ -d ios-wrap ]; then cd ios-wrap; fi
+          if [ ! -d ios/App ]; then
+            echo "ios/App missing after cap sync" >&2
+            ls -la
+            exit 1
+          fi
+          cd ios/App
+          # Capacitor layout: workspace lives here as App.xcworkspace
+          WS="$XCODE_WORKSPACE"
+          if [ ! -e "$WS" ] && [ -e App.xcworkspace ]; then WS=App.xcworkspace; fi
+          if [ ! -e "$WS" ]; then
+            echo "Workspace not found; listing ios/App:" >&2
+            ls -la
+            exit 1
+          fi
+          xcode-project build-ipa --workspace "$WS" --scheme "$XCODE_SCHEME"
+    artifacts:
+      - ios-wrap/ios/App/build/ios/ipa/*.ipa
+      - ios/App/build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - miketmarshall94@gmail.com
+        notify:
+          success: true
+          failure: true
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false

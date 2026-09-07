@@ -1,0 +1,19 @@
+{
+  "name": "brain-kit-ios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capacitor shell for Brain Kit — bundled www by default; optional REMOTE_URL when Grok hosts later",
+  "scripts": {
+    "build:web": "node -e \"console.log('webDir is static www; set REMOTE_URL only when hosted')\"",
+    "cap:sync": "npx cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.2",
+    "@capacitor/ios": "^7.4.2",
+    "@capacitor/app": "^7.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.2",
+    "typescript": "^5.9.2"
+  }
+}

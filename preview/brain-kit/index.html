@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brain Kit — Reading & Math Practice, K–12</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&family=Source+Serif+4:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="maturity-k5">
+  <a class="skip-link" href="#main-app">Skip to content</a>
+  <div id="live-status" class="sr-only" aria-live="polite"></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <img src="assets/kit-full.jpg" alt="Kit the fox">
+        <div>
+          <h1>Brain Kit</h1>
+          <small>Reading & Math Practice, K–12</small>
+        </div>
+      </div>
+      <nav class="nav-pills" id="main-nav">
+        <button data-view="lock">Sign in</button>
+        <button data-view="home">Home</button>
+        <button data-view="parent">Parent HQ</button>
+        <button data-view="student-hq">My HQ</button>
+        <button data-view="student">Student</button>
+        <button data-view="homework">Stuck</button>
+        <button data-view="summer">Summer</button>
+        <button data-view="goals">Goals</button>
+        <button data-view="settings">Settings</button>
+        <button data-view="billing">Billing</button>
+        <button data-view="admin">Admin</button>
+        <button data-view="teacher">Class</button>
+        <button data-view="evidence">History</button>
+        <button data-view="rollover">Level up</button>
+        <button data-view="privacy">Privacy</button>
+        <button data-view="listing">Store</button>
+        <button data-view="consent">Consent</button>
+      </nav>
+    </header>
+
+    <div class="card" id="debug-bar" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:16px">
+      <label>Active profile
+        <select id="student-select"></select>
+      </label>
+      <label>Interface maturity
+        <select id="maturity-select">
+          <option value="">Auto from grade</option>
+          <option value="k5">K–5 illustrated</option>
+          <option value="middles">6–8 quieter</option>
+          <option value="hs">9–12 near-adult</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="a11y-dyslexia"> Dyslexia-friendly font</label>
+      <label><input type="checkbox" id="a11y-quiet"> Reduced-distraction layout</label>
+      <span class="meta" id="active-student-label"></span>
+    </div>
+
+    <main id="main-app">
+      <section id="view-home" class="view"></section>
+      <section id="view-parent" class="view hidden"></section>
+      <section id="view-student" class="view hidden"></section>
+      <section id="view-session" class="view hidden"></section>
+      <section id="view-diagnostic" class="view hidden"></section>
+      <section id="view-admin" class="view hidden"></section>
+      <section id="view-tutor" class="view hidden"></section>
+      <section id="view-evidence" class="view hidden"></section>
+      <section id="view-lock" class="view hidden"></section>
+      <section id="view-goals" class="view hidden"></section>
+      <section id="view-settings" class="view hidden"></section>
+      <section id="view-billing" class="view hidden"></section>
+      <section id="view-recover" class="view hidden"></section>
+      <section id="view-mailbox" class="view hidden"></section>
+      <section id="view-profiles" class="view hidden"></section>
+      <section id="view-report" class="view hidden"></section>
+      <section id="view-rollover" class="view hidden"></section>
+      <section id="view-student-hq" class="view hidden"></section>
+      <section id="view-weekly" class="view hidden"></section>
+      <section id="view-homework" class="view hidden"></section>
+      <section id="view-summer" class="view hidden"></section>
+      <section id="view-teacher" class="view hidden"></section>
+      <section id="view-assign" class="view hidden"></section>
+      <section id="view-class-report" class="view hidden"></section>
+      <section id="view-privacy" class="view hidden"></section>
+      <section id="view-listing" class="view hidden"></section>
+      <section id="view-consent" class="view hidden"></section>
+      <section id="view-signup" class="view hidden"></section>
+    </main>
+
+    <p class="footer-note">Phases 1–4: engine, profiles & placement, belt/maturity/rollover, routing-layer access control.</p>
+  </div>
+
+  <div id="gate-overlay" class="gate-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="gate-title"></div>
+
+  <script src="js/taxonomy.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/importer.js"></script>
+  <script src="js/seed-math.js"></script>
+  <script src="js/seed-catalog.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/placement.js"></script>
+  <script src="js/belt.js"></script>
+  <script src="js/hq.js"></script>
+  <script src="js/mail.js"></script>
+  <script src="js/org.js"></script>
+  <script src="js/tutor.js"></script>
+  <script src="js/homework.js"></script>
+  <script src="js/a11y.js"></script>
+  <script src="js/summer.js"></script>
+  <script src="js/export.js"></script>
+  <script src="js/teacher.js"></script>
+  <script src="js/billing.js"></script>
+  <script src="js/compliance.js"></script>
+  <script src="js/access.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
