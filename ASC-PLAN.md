@@ -6,12 +6,20 @@ Scaffold for ASC creation. **Parent (Mike) creates the ASC app in the UI** — a
 
 ---
 
+
+## Status (2026-09-07)
+
+- Bundle ID `com.mikemarshall.brainkit` registered on Apple Developer (resource `Z2GY85Y999`, IAP enabled during UI setup).
+- ASC app record **not created yet** — UI session keeps expiring; ASC API key `WTQL9884XY` cannot CREATE apps (GET/UPDATE only).
+- Repo ready: https://github.com/Muvmarshall/brain-kit-app-store
+- After ASC create: paste numeric Apple ID into `codemagic.yaml` → `APP_STORE_APPLE_ID`.
+
 ## Identity
 
 | Field | Value | Notes |
 | --- | --- | --- |
 | Display name | **Brain Kit** | Confirm availability in ASC |
-| Bundle ID | `com.mikemarshall.brainkit` | Confirm no collision on ASC later |
+| Bundle ID | `com.mikemarshall.brainkit` | Registered (Z2GY85Y999); ASC app pending create |
 | SKU suggestion | `brainkit001` | Immutable once created |
 | Primary category | Education | Mike confirms |
 | Support email | miketmarshall94@gmail.com | |
