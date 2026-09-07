@@ -66,9 +66,24 @@ NO-MAC-LAUNCH.md
 
 ## 3. Add the application in Codemagic
 
-1. Codemagic → **Add application** / **Applications**.
-2. Select **GitHub** → pick the Brain Kit repo (not Brain Builder).
-3. Confirm workflow **Brain Kit iOS** (`brain-kit-ios`) appears from `codemagic.yaml`.
+You can **connect the Codemagic application to GitHub before** the ASC numeric Apple ID exists.
+Uploading a signed IPA / TestFlight publish still needs the ASC API integration + signing profiles;
+build-number helpers need `APP_STORE_APPLE_ID` numeric (yaml falls back soft until then).
+
+### Exact click path (no Apple ID required yet)
+
+1. https://codemagic.io → sign in with **GitHub**.
+2. **Add application** → select provider **GitHub**.
+3. Pick repo **`Muvmarshall/brain-kit-app-store`** (not Brain Builder).
+4. Project type: detect **codemagic.yaml** at repo root → workflow **Brain Kit iOS** (`brain-kit-ios`).
+5. Save / finish — app is connected for CI cloning and yaml validation.
+6. **Do not** start a production TestFlight publish until:
+   - Integration **Brain Kit Codemagic** is uploaded (§5)
+   - Signing cert + App Store profile for `com.mikemarshall.brainkit` exist (§6)
+   - ASC app created and `APP_STORE_APPLE_ID` replaced (§7) — optional for a dry compile if you temporarily skip publish, but required for the yaml’s TestFlight publish step as written
+
+Agents cannot finish Codemagic OAuth or team integrations without Mike’s Codemagic/GitHub session.
+
 
 ---
 

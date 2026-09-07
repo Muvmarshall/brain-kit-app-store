@@ -17,3 +17,7 @@ Landing page: `landing.html`.
 - `privacy.html`, `terms.html`, `support.html` — **PLACEHOLDER** until a live HTTPS host exists.
 - Support contact: miketmarshall94@gmail.com
 - Grok Build owns final legal copy; do not use these bundled paths as ASC Privacy/Support URLs.
+
+## Prototype paywall dollars (NOT App Store locked)
+
+`js/billing.js` and `js/app.js` still show **prototype** UI amounts (e.g. Complete `$7.99` / `$69`, Essentials `$4.99` / `$39`, Test Prep `+$9.99`). These are **not** Mike/Grok-approved ASC prices. Before Submit: replace with approved `$____` values + StoreKit product IDs only — do not invent new locked dollars in ASC from this prototype.

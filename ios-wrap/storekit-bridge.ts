@@ -4,6 +4,11 @@
  * Never grant Complete from web preview localStorage in the App Store binary.
  *
  * PRICES NOT LOCKED — do not invent dollars; Mike/Grok must approve before ASC products go live.
+ *
+ * After `npm install` (dep pinned in package.json), real wiring looks like:
+ *   // import { NativePurchases } from '@capgo/native-purchases';
+ * Then replace the TODO bodies below. Keep this file compiling without the native
+ * import until Codemagic Mac runs cap sync + IAP capability — comments only for now.
  */
 
 export type CompletePlan = 'yearly' | 'monthly';
@@ -50,7 +55,9 @@ export async function purchaseComplete(plan: CompletePlan): Promise<PurchaseResu
   if (!isNative()) {
     return { ok: false, reason: 'not_native', message: 'Use App Store build for real IAP' };
   }
-  // TODO(Codemagic): NativePurchases.purchaseProduct({ productIdentifier: PRODUCT_IDS[plan] })
+  // TODO(Codemagic): after npm install + cap sync —
+  //   import { NativePurchases } from '@capgo/native-purchases';
+  //   await NativePurchases.purchaseProduct({ productIdentifier: PRODUCT_IDS[plan] })
   return { ok: false, reason: 'not_wired', message: 'StoreKit plugin not linked yet' };
 }
 
@@ -66,14 +73,15 @@ export async function restoreComplete(opts?: { force?: boolean }): Promise<Resto
   if (!isNative()) {
     return { ok: false, reason: 'not_native', message: 'Restore only on device' };
   }
-  // TODO(Codemagic): NativePurchases.restorePurchases() then check entitlements
+  // TODO(Codemagic): import { NativePurchases } from '@capgo/native-purchases';
+  //   await NativePurchases.restorePurchases() — then verify PRODUCT_IDS entitlement
   return { ok: false, reason: 'not_wired', message: 'StoreKit plugin not linked yet' };
 }
 
 /** Production: entitlement from StoreKit only — never trust web preview flags */
 export async function getCompleteActive(): Promise<boolean> {
   if (!isNative()) return false;
-  // TODO(Codemagic): query active subscription for PRODUCT_IDS
+  // TODO(Codemagic): NativePurchases — query active subscription for PRODUCT_IDS
   return false;
 }
 

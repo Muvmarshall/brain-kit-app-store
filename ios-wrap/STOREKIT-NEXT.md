@@ -4,22 +4,36 @@
 
 ## Capgo path (preferred)
 
-1. On Codemagic Mac (inside `ios-wrap/` after npm install):
+`package.json` already lists `@capgo/native-purchases` **`^7.19.1`** (Capacitor 7–compatible 7.x line; Cap 8 plugins are major `8.x` — do not jump there while on Cap `^7.4.x`).
+
+1. **npm install pulls the plugin** (local or Codemagic):
 
    ```bash
-   npm install @capgo/native-purchases
-   # Match plugin major to Capacitor 7 (^7.x).
+   cd ios-wrap
+   npm install
+   # installs @capgo/native-purchases from package.json
+   npm run cap:sync   # same as: npx cap sync ios
+   ```
+
+2. On **Codemagic Mac** (after `ios/` exists via `cap add ios`):
+
+   ```bash
+   cd ios-wrap
+   npm install
    npx cap sync ios
    ```
 
-2. Enable **In-App Purchase** capability on the iOS App target (Xcode / entitlements on CI).
-3. Replace TODOs in `storekit-bridge.ts` with Capgo calls, e.g.:
+   Enable **In-App Purchase** capability on the iOS App target (Xcode / entitlements on CI).
+
+3. Replace TODOs in `storekit-bridge.ts` with Capgo calls (import only once native sync is done), e.g.:
 
    - `NativePurchases.purchaseProduct({ productIdentifier: PRODUCT_IDS[plan] })`
    - `NativePurchases.restorePurchases()` then verify entitlement for `PRODUCT_IDS`
    - Query active subscription for `getCompleteActive()`
 
-4. Alternatives only if Capgo is blocked: Capawesome purchases plugin or a thin custom StoreKit 2 Swift plugin — same product IDs, same parent-gate rules.
+4. **Real purchase still TODO until Codemagic Mac** — bridge returns `not_wired` until those bodies are replaced and Sandbox QA passes.
+
+5. Alternatives only if Capgo is blocked: Capawesome purchases plugin or a thin custom StoreKit 2 Swift plugin — same product IDs, same parent-gate rules.
 
 ## Parent gate (required)
 
@@ -41,6 +55,10 @@ Kids Category / Guideline **1.3**: do not expose buy or restore behind a child-r
 
 `storekit-bridge.ts` must keep **only** `PRODUCT_IDS` + TBD comments (`PRODUCT_PRICE_STATUS`). Never hardcode any locked dollar string in the bridge — use `$____` blanks in docs until approved.
 
+### Prototype UI warning
+
+Bundled `www/js/billing.js` + `www/js/app.js` still contain **prototype** paywall amounts (Complete `$7.99`/`$69`, etc.). Those are **not** ASC-approved. Do not create ASC products from them; sync UI to approved `$____` before Submit.
+
 ## Web / bundled app rules
 
 - After parent PIN, call the **native** bridge — **never** set Complete from preview / `localStorage` unlock in production App Store builds.
@@ -58,6 +76,6 @@ Kids Category / Guideline **1.3**: do not expose buy or restore behind a child-r
 
 - [ ] Mike/Grok approve Yearly **$____** / Monthly **$____** / trial **____**
 - [ ] ASC subscription group + products created with those prices
-- [ ] Paywall copy synced to live ASC prices (no invented leftovers)
+- [ ] Paywall copy synced to live ASC prices (no invented leftovers / no prototype leftovers)
 - [ ] Parent gate verified on device
 - [ ] Sandbox purchase + restore recorded for Guideline 2.1 if needed

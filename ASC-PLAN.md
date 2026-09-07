@@ -135,9 +135,12 @@ Carry forward (process only — **do not copy BB bundle/product IDs or prices**)
 
 ## Related files
 
-- `ios-wrap/` — Capacitor shell + StoreKit stubs
+- `ASC-FIELD-CHECKLIST.md` — paste-ready ASC fields, DRAFT age rating + privacy nutrition, screenshot sizes
+- `EXPORT-COMPLIANCE.md` — `ITSAppUsesNonExemptEncryption` false
+- `NEXT-OFFLINE.md` — offline vs Apple-ID blockers
+- `ios-wrap/` — Capacitor shell + StoreKit stubs + Capgo dep
 - `NO-MAC-LAUNCH.md` — iPad/browser vs cloud Mac
-- `CODEMAGIC-SETUP.md` — CI setup
+- `CODEMAGIC-SETUP.md` — CI setup (connect app before Apple ID OK)
 - `codemagic.yaml` — workflow `brain-kit-ios`
 
 *DRAFT ASC plan. Prices TBD. No ASC registration by agents.*
