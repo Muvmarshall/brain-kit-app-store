@@ -20,7 +20,7 @@ Thin Capacitor shell. **Default = bundled `www/`** (sync of `../preview/brain-ki
 | `capacitor.config.ts` | Bundled www; optional `REMOTE_URL` |
 | `www/` | Copy of preview/brain-kit for bundled mode |
 | `www/privacy.html` / `terms.html` / `support.html` | **PLACEHOLDER** legal/support pages (email only until live HTTPS) |
-| `storekit-bridge.ts` (+ stub re-export) | Product ID constants only — no dollar amounts |
+| `storekit-bridge.ts` (+ stub / `www/js/brainkit-iap.js`) | Capgo-wired Complete IAP; product IDs only — no dollar amounts |
 | `STOREKIT-NEXT.md` | Capgo / TestFlight / parent-gate plan |
 | `PrivacyInfo.xcprivacy` | Stub privacy manifest (empty required-reason APIs) |
 | `PRIVACYINFO-STUB.md` | How/when the stub is copied into generated `ios/` |
@@ -81,9 +81,9 @@ Capacitor’s generated Info.plist may need usage-description keys only if a plu
 
 When adding Cap plugins on Codemagic, add a **short, honest** purpose string in the same CI script that touches Info.plist — never copy Brain Builder strings blindly.
 
-## StoreKit bridge still required
+## StoreKit bridge (Capgo wired in JS/TS)
 
-Production needs real **StoreKit 2** via Capgo `@capgo/native-purchases` (or equivalent). Parent PIN **before** purchase and Restore. Never grant Complete from preview unlock in the store binary. `storekit-bridge.ts` exports **product ID constants only** + TBD price status comments — **no hardcoded dollar amounts**. See `STOREKIT-NEXT.md`.
+`storekit-bridge.ts` + `www/js/brainkit-iap.js` (`window.BrainKitIAP`) call Capgo `@capgo/native-purchases` for Complete yearly/monthly. Parent PIN **before** purchase and Restore. Never grant Complete from preview unlock in the store binary. **Product ID constants only** + TBD `PRODUCT_PRICE_STATUS` — **no hardcoded dollar amounts**. Still needed: IAP capability on CI Xcode target + Sandbox QA on device. See `STOREKIT-NEXT.md`.
 
 ## ATS / config notes
 
