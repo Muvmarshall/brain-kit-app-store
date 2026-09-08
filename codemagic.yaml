@@ -31,6 +31,8 @@ workflows:
         APP_STORE_APPLE_ID: "6809647241"
         XCODE_WORKSPACE: App.xcworkspace
         XCODE_SCHEME: App
+        # CapgoNativePurchases.podspec requires 15.0; Cap iOS template defaults to 14.0
+        IOS_MIN: "15.0"
       node: 20
       xcode: latest
     scripts:
@@ -44,24 +46,29 @@ workflows:
           set -e
           if [ -d ios-wrap ]; then cd ios-wrap; fi
           if [ ! -d ios ]; then npx cap add ios; fi
+          # MUST run BEFORE cap sync: sync invokes pod install, and CapgoNativePurchases
+          # requires platform :ios >= 15.0 (template is 14.0).
+          bash scripts/patch-ios-deployment-target.sh ios/App
           npx cap sync ios
+          # Re-apply after sync (sync rewrites capacitor_pods but keeps platform/post_install;
+          # still re-assert so a future Cap change cannot regress).
+          bash scripts/patch-ios-deployment-target.sh ios/App
           # Privacy manifest stub (local-first) — copy if Cap did not already include it
           if [ -f PrivacyInfo.xcprivacy ] && [ -d ios/App/App ]; then
             cp -n PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy 2>/dev/null \
               || cp PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy
           fi
           # Apple Spring 2027: MinimumOSVersion must be 15.0+
-          /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion 15.0" ios/App/App/Info.plist 2>/dev/null || true
+          /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion ${IOS_MIN}" ios/App/App/Info.plist 2>/dev/null || true
           # HTTPS-only / system TLS: declare exempt encryption for TestFlight compliance
           /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" ios/App/App/Info.plist 2>/dev/null \
             || /usr/libexec/PlistBuddy -c "Set :ITSAppUsesNonExemptEncryption false" ios/App/App/Info.plist
-          if [ -f ios/App/App.xcodeproj/project.pbxproj ]; then
-            sed -i.bak 's/IPHONEOS_DEPLOYMENT_TARGET = [0-9.]*;/IPHONEOS_DEPLOYMENT_TARGET = 15.0;/g' ios/App/App.xcodeproj/project.pbxproj
-          fi
       - name: CocoaPods
         script: |
           set -e
           if [ -d ios-wrap ]; then cd ios-wrap; fi
+          # Belt-and-suspenders: ensure Podfile platform/post_install before explicit pod install
+          bash scripts/patch-ios-deployment-target.sh ios/App
           cd ios/App && pod install
       - name: Set up code signing
         script: xcode-project use-profiles
