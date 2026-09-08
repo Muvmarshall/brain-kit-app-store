@@ -5,11 +5,11 @@
 #
 # ASC app: Brain Kit Practice · Apple ID 6809647241 · bundle com.mikemarshall.brainkit · SKU brainkit001
 # APP_STORE_APPLE_ID is WIRED below.
-# BEFORE first TestFlight build, Mike still needs:
-#   [ ] 1. Codemagic Team integration named exactly: Brain Kit Codemagic
-#   [ ] 2. Signing: App Store profile for com.mikemarshall.brainkit
-#   [ ] 3. Confirm workflow id/name: brain-kit-ios / "Brain Kit iOS"
-#   [ ] 4. NO Brain Builder IDs in this file
+# BEFORE first TestFlight build:
+#   [ ] 1. Signing: App Store profile for com.mikemarshall.brainkit
+#   [ ] 2. Confirm workflow brain-kit-ios
+# Note: ASC API key WTQL9884XY already in Codemagic as "Brain Builder Codemagic" —
+# yaml reuses that integration name (cannot register same Key ID twice).
 # Codemagic Team integration name must match integrations.app_store_connect below.
 # Never put Apple passwords or .p8 contents in this file — use Codemagic Team integrations only.
 # PRICES NOT LOCKED — do not invent dollars for Complete IAP.
@@ -21,7 +21,7 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: Brain Kit Codemagic
+      app_store_connect: Brain Builder Codemagic
     environment:
       ios_signing:
         distribution_type: app_store

@@ -10,7 +10,7 @@ You (Mike) create/connect the GitHub repo, Codemagic app, and App Store Connect 
 | Hosted URL | None yet (bundled `www/`; optional `REMOTE_URL` later) |
 | Yearly | **TBD** — `com.brainkit.complete.yearly` |
 | Monthly | **TBD** — `com.brainkit.complete.monthly` |
-| Codemagic integration name | **Brain Kit Codemagic** |
+| Codemagic integration name | **Brain Builder Codemagic** (shared ASC key; same Key ID cannot be uploaded twice) |
 | Notify email | miketmarshall94@gmail.com |
 
 **PRICES NOT LOCKED — do not invent dollars.**
@@ -78,7 +78,7 @@ build-number helpers need `APP_STORE_APPLE_ID` numeric (yaml falls back soft unt
 4. Project type: detect **codemagic.yaml** at repo root → workflow **Brain Kit iOS** (`brain-kit-ios`).
 5. Save / finish — app is connected for CI cloning and yaml validation.
 6. **Do not** start a production TestFlight publish until:
-   - Integration **Brain Kit Codemagic** is uploaded (§5)
+   - Integration **Brain Builder Codemagic** (shared ASC key; same Key ID cannot be uploaded twice) is uploaded (§5)
    - Signing cert + App Store profile for `com.mikemarshall.brainkit` exist (§6)
    - ASC app created and `APP_STORE_APPLE_ID` replaced (§7) — optional for a dry compile if you temporarily skip publish, but required for the yaml’s TestFlight publish step as written
 
@@ -103,12 +103,12 @@ Never commit key files or Apple passwords.
 
 1. Codemagic → **Teams** → **Integrations** (Developer Portal / App Store Connect).
 2. Add (or duplicate) integration → upload key + Issuer ID + Key ID.
-3. Name it exactly: **`Brain Kit Codemagic`** (separate from Brain Builder’s integration name).
+3. Name it exactly: **`Brain Builder Codemagic`** (reuses Brain Builder’s integration — same .p8 Key ID).
 4. Confirm `codemagic.yaml` has:
 
 ```yaml
 integrations:
-  app_store_connect: Brain Kit Codemagic
+  app_store_connect: Brain Builder Codemagic
 ```
 
 ---

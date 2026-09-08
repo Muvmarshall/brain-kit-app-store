@@ -97,7 +97,7 @@ Blocker for Submit: ASC requires working Privacy and Support URLs.
 
 1. Private GitHub repo (suggested: `Muvmarshall/brain-kit-app-store`) with `codemagic.yaml` at root + `ios-wrap/`.
 2. New Codemagic application connected to that repo.
-3. ASC API key: same team key OK if scopes allow; use a **separate Codemagic integration name**: `Brain Kit Codemagic`.
+3. ASC API key: same team key OK if scopes allow; use a **shared Codemagic integration name**: `Brain Builder Codemagic`.
 4. Generate Distribution cert + App Store profile for `com.mikemarshall.brainkit`.
 5. Set `APP_STORE_APPLE_ID` in `codemagic.yaml` after ASC create.
 6. First build → TestFlight only (`submit_to_app_store: false`).

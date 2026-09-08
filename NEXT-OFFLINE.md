@@ -23,7 +23,7 @@ Ordered remaining work. **Prices stay `$____` until Mike/Grok approve.** No Brai
 ## C. Blocked on Codemagic Mac / TestFlight
 
 1. Connect Codemagic app to `Muvmarshall/brain-kit-app-store` (can start **without** Apple ID; upload/signing needs integration — `CODEMAGIC-SETUP.md`).
-2. Integration name **Brain Kit Codemagic** + Distribution cert + App Store profile for `com.mikemarshall.brainkit`.
+2. Integration name **Brain Builder Codemagic** (shared ASC key; same Key ID cannot be uploaded twice) + Distribution cert + App Store profile for `com.mikemarshall.brainkit`.
 3. First IPA → TestFlight only (`submit_to_app_store: false`).
 4. On CI Mac: `npx cap sync` after Capgo install; enable In-App Purchase capability; replace TODOs in `storekit-bridge.ts` (`STOREKIT-NEXT.md`).
 5. Sandbox purchase + restore behind parent gate on iPad.
@@ -34,7 +34,7 @@ Ordered remaining work. **Prices stay `$____` until Mike/Grok approve.** No Brai
 | Blocker | Owner |
 | --- | --- |
 | ASC app + numeric Apple ID in yaml | Mike |
-| Codemagic app + Brain Kit Codemagic integration + signing | Mike |
+| Codemagic app + Brain Builder Codemagic integration + signing | Mike |
 | `ios/` generated on CI (`cap add ios`) | Codemagic |
 | Network `npm install` / lockfile (if missing locally) | CI or offline agent when network OK |
 
