@@ -45,24 +45,38 @@ workflows:
         script: |
           set -e
           if [ -d ios-wrap ]; then cd ios-wrap; fi
-          if [ ! -d ios ]; then npx cap add ios; fi
-          # MUST run BEFORE cap sync: sync invokes pod install, and CapgoNativePurchases
-          # requires platform :ios >= 15.0 (template is 14.0).
+          # Cap add/sync both run `pod install`. Cap template Podfile is platform 14.0;
+          # CapgoNativePurchases requires 15.0. So:
+          # 1) Hide @capgo during first `cap add ios` so the initial pod install has no Capgo pod.
+          # 2) Patch Podfile to 15.0.
+          # 3) Restore @capgo and `cap sync` (pod install with Capgo + platform 15.0).
+          if [ ! -d ios ]; then
+            STASH=/tmp/capgo-stash-$$
+            mkdir -p "$STASH"
+            if [ -d node_modules/@capgo ]; then
+              echo "Stashing @capgo during cap add ios (avoid Capgo vs platform 14.0)"
+              mv node_modules/@capgo "$STASH/"
+            fi
+            npx cap add ios
+            bash scripts/patch-ios-deployment-target.sh ios/App
+            if [ -d "$STASH/@capgo" ]; then
+              mv "$STASH/@capgo" node_modules/
+            fi
+            rm -rf "$STASH"
+          fi
           bash scripts/patch-ios-deployment-target.sh ios/App
           npx cap sync ios
-          # Re-apply after sync (sync rewrites capacitor_pods but keeps platform/post_install;
-          # still re-assert so a future Cap change cannot regress).
           bash scripts/patch-ios-deployment-target.sh ios/App
-          # Privacy manifest stub (local-first) — copy if Cap did not already include it
+          # Privacy manifest stub (local-first)
           if [ -f PrivacyInfo.xcprivacy ] && [ -d ios/App/App ]; then
             cp -n PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy 2>/dev/null \
               || cp PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy
           fi
-          # Apple Spring 2027: MinimumOSVersion must be 15.0+
           /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion ${IOS_MIN}" ios/App/App/Info.plist 2>/dev/null || true
-          # HTTPS-only / system TLS: declare exempt encryption for TestFlight compliance
           /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" ios/App/App/Info.plist 2>/dev/null \
             || /usr/libexec/PlistBuddy -c "Set :ITSAppUsesNonExemptEncryption false" ios/App/App/Info.plist
+          echo "=== Podfile platform line ==="
+          grep -n "platform :ios" ios/App/Podfile || true
       - name: CocoaPods
         script: |
           set -e
