@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: brainkit
+      POSTGRES_PASSWORD: brainkit
+      POSTGRES_DB: brainkit
+    ports:
+      - "5432:5432"
+    volumes:
+      - brainkit_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U brainkit -d brainkit"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  api:
+    build: .
+    ports:
+      - "8787:8787"
+    environment:
+      NODE_ENV: production
+      PORT: "8787"
+      DATABASE_URL: postgres://brainkit:brainkit@db:5432/brainkit
+      JWT_SECRET: compose-dev-jwt-secret-change-in-prod-32c
+      JWT_ACCESS_TTL_SECONDS: "900"
+      REFRESH_TTL_DAYS: "30"
+      CONSENT_VERSION: v1
+      CORS_ORIGINS: "http://localhost:5173,http://localhost:3000,http://localhost:8080,http://127.0.0.1:5173,capacitor://localhost,http://localhost"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  brainkit_pg:
