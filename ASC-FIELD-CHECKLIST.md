@@ -142,7 +142,7 @@ Upload **actual app UI**. Up to 10 per locale/device class.
 5. Privacy / Support entry (live GitHub Pages URLs)  
 6. **Skip Complete paywall** for free v1 screenshots (no IAP)  
 
-**Icon:** 1024×1024 ASC icon (create before Submit).
+**Icon:** **Ready** — `assets/app-icon-1024.png` (1024×1024 RGB, no alpha; from kit-full.jpg). Upload to ASC + confirm in TestFlight IPA. **Submit still needs Marshall GO.**
 
 ---
 
@@ -164,7 +164,8 @@ Upload **actual app UI**. Up to 10 per locale/device class.
 - [x] Capacitor shell + StoreKit bridge stubs + Capgo dep pin
 - [x] Free v1: IAP = No (do not invent prices / do not create ASC IAP)
 - [x] Live HTTPS Privacy / Terms / Support (GitHub Pages `docs/`)
-- [ ] Screenshots + 1024 icon
+- [x] Screenshots (web-preview ASC sizes under `screenshots/asc/`) + 1024 icon (`assets/app-icon-1024.png`)
+- [ ] Icon confirmed inside a TestFlight build (Codemagic `brain-kit-ios`)
 - [ ] Age rating + privacy labels Mike-confirmed (Made for Kids **6–8** assumed)
 
 ### Blocked on Apple ID / ASC / Mac CI

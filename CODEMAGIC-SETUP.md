@@ -196,3 +196,10 @@ Until this value is numeric, build-number bump via `app-store-connect get-latest
 - Copy Brain Builder bundle IDs or Plus product IDs into Brain Kit
 
 If the first build fails, check integration name / signing profile / `APP_STORE_APPLE_ID` first.
+
+## App Icon (Practice FREE v1)
+
+Codemagic workflow `brain-kit-ios` runs `ios-wrap/scripts/apply-app-icon.sh` after `cap add` / `cap sync`. That copies `ios-wrap/resources/AppIcon.appiconset/` (Kit brand 1024, opaque) over the Capacitor placeholder in `Assets.xcassets`. Source of truth: `assets/app-icon-1024.png` from `scripts/generate-app-icon.py`.
+
+Rebuild path if CLI unavailable: Codemagic → Brain Kit app → **Start new build** → workflow **brain-kit-ios** → branch with the AppIcon commit (or `main` after merge).
+

@@ -20,7 +20,12 @@ Web-preview captures at official ASC portrait sizes. **Not** device TestFlight r
 | `*-04-parent-gate.png` | Parent Sign-in PIN gate (demo PIN UI) |
 | `*-05-privacy.png` | Privacy / legal path |
 
-## Still NEED MIKE
-- AppIcon 1024×1024 (do not invent art)
+## App Icon
+- **Ready:** `app-icon-1024.png` in this folder (copy of `assets/app-icon-1024.png`)
+- Source: Kit brand photo `preview/brain-kit/assets/kit-full.jpg` via `scripts/generate-app-icon.py`
+- Spec: 1024×1024 PNG, RGB, **no alpha**, no rounded corners
 
-Do not Submit from this folder alone — listing + icon + ASC metadata still required.
+## Still NEED MIKE / Marshall GO
+- Confirm icon in a TestFlight build, then Marshall GO before Submit
+
+Do not Submit from this folder alone — listing + TF icon check + Marshall GO still required.

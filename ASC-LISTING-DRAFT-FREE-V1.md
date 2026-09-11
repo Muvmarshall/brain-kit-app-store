@@ -56,6 +56,6 @@ homework help,K-12,math practice,reading practice,IXL alternative,homeschool
 
 ## Still blocked for Submit (not for drafting)
 1. ~~Live HTTPS Privacy / Terms / Support~~ — done via GitHub Pages `docs/`
-2. 1024×1024 App Icon (brand) — blocked until Mike supplies (do not invent / ship Cap placeholder art)
+2. ~~1024×1024 App Icon (brand)~~ — **ready:** `assets/app-icon-1024.png` (derived from `preview/brain-kit/assets/kit-full.jpg`; opaque RGB; also `screenshots/asc/app-icon-1024.png` + CI AppIcon via `ios-wrap/scripts/apply-app-icon.sh`). **Still:** Submit needs Marshall GO after icon appears in a TestFlight build.
 3. Device screenshots (plan only in `ASC-FIELD-CHECKLIST.md` §6)
 4. Mike: confirm or override Made for Kids age band **6–8**

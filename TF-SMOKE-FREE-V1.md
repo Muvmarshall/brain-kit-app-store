@@ -36,7 +36,8 @@ Demo PINs (prototype seed, not secrets): parent **4821** · Elena **2468** · te
 | Free cap OK | Daily free limit may show; does not force a real purchase | ☐ |
 
 ## Still NEED MIKE before Submit
-- [ ] Final App Icon 1024 (no Cap placeholder)
+- [x] Final App Icon 1024 generated (`assets/app-icon-1024.png` from kit-full.jpg)
+- [ ] Confirm App Icon (not Cap placeholder) inside TestFlight IPA / device
 - [ ] Screenshots (iPhone 6.7 + iPad 13)
 - [ ] Confirm Made for Kids age band **6–8** (draft assumption)
 - [ ] Paste ASC listing from `ASC-LISTING-DRAFT-FREE-V1.md`
