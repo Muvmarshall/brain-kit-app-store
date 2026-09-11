@@ -3213,7 +3213,7 @@
       },
       {
         "id": "read-4-sum-1-q5",
-        "prompt": "Best summary length vs the passage:",
+        "prompt": "Compared with the original text, a good summary is usually…",
         "choices": [
           "shorter",
           "longer",

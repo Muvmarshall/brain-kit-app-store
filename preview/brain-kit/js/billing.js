@@ -17,8 +17,9 @@
     essentials: {
       id: "essentials",
       name: "Essentials",
-      monthly: 4.99,
-      yearly: 39,
+      /* Practice 1.0 ships free — no ASC/IAP prices locked. UI must not invent dollars. */
+      monthly: null,
+      yearly: null,
       subjects: "one",
       profiles: 4,
       practice: true
@@ -26,8 +27,8 @@
     complete: {
       id: "complete",
       name: "Complete",
-      monthly: 7.99,
-      yearly: 69,
+      monthly: null,
+      yearly: null,
       subjects: "all",
       profiles: 4,
       practice: true,
@@ -39,7 +40,7 @@
     testprep: {
       id: "testprep",
       name: "Test Prep",
-      monthly: 9.99,
+      monthly: null,
       minGrade: 8,
       exams: ["SAT", "ACT", "CLT", "HSPT", "SSAT"]
     }
@@ -140,10 +141,12 @@
     return (students || []).some((s) => global.BK_gradeNumber(s.grade) >= ADDONS.testprep.minGrade);
   }
 
+  /* Returns null when no ASC-locked price exists — never invents prototype dollars. */
   function quote(planId, interval) {
     const p = PLANS[planId];
-    if (!p) return 0;
-    return interval === "yearly" ? p.yearly : p.monthly;
+    if (!p) return null;
+    const amount = interval === "yearly" ? p.yearly : p.monthly;
+    return amount == null ? null : amount;
   }
 
   function checkout(opts) {
@@ -175,7 +178,7 @@
     }
     const b = billing();
     if (b.addons.indexOf("testprep") === -1) b.addons.push("testprep");
-    b.receipts.push({ at: Date.now(), plan: "testprep", amount: ADDONS.testprep.monthly, provider: provider || "iap" });
+    b.receipts.push({ at: Date.now(), plan: "testprep", amount: ADDONS.testprep.monthly /* null until ASC */, provider: provider || "iap" });
     global.BKStore.persist();
     return { ok: true };
   }

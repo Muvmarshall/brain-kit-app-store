@@ -615,11 +615,11 @@
         <ul>${(report.skills || []).map((s) => `<li>${s}</li>`).join("")}</ul>
         <p class="meta">${report.correct} of ${report.asked} in this sample. Shareable with a teacher. Not a state-recognized portfolio. No card required.</p>
         <div class="notice" style="margin-top:14px">
-          <strong>The report is free. Practice is Complete.</strong>
-          ${BKBilling.onTrial() ? " You have " + BKBilling.trialDaysLeft() + " days left on the Complete trial." : " Seven days of Complete on signup — then Essentials or Complete."}
+          <strong>The report is free. Practice 1.0 is free.</strong>
+          ${BKBilling.onTrial() ? " Trial scaffolding remains for later paid releases — Practice 1.0 does not charge." : " No subscription required in this release — practice stays free."}
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
-          <button class="btn primary" id="rep-buy">Start Complete · $7.99/mo or $69/yr</button>
+          <button class="btn primary" id="rep-buy">Continue free practice</button>
           <button class="btn" id="rep-parent">Send to Parent HQ</button>
           <button class="btn ghost" id="rep-back">Back to the belt</button>
         </div>
@@ -1403,24 +1403,24 @@
     $("#view-billing").innerHTML = `
       <div class="card">
         <div class="kicker">Billing · parental gate + parent PIN</div>
-        <h2 style="font-family:var(--font);font-size:32px;margin:6px 0 8px">Free tier, then the ladder.</h2>
+        <h2 style="font-family:var(--font);font-size:32px;margin:6px 0 8px">Practice 1.0 is free.</h2>
         <p>Now: <strong>${p.name}</strong>${BKBilling.onTrial() ? " · " + BKBilling.trialDaysLeft() + "-day Complete trial on top of free" : ""} · ${b.interval} · ${b.provider || "no card yet"} · ${BKStore.state.students.length}/${BKBilling.profileCap()} profiles${p.id === "free" && !BKBilling.onTrial() ? " · " + BKBilling.questionsToday() + "/10 questions today" : ""}</p>
         ${ui.paywallReason ? `<p class="deny">${ui.paywallReason}</p>` : ""}
         <label><input type="checkbox" id="bill-year" ${yearlyOn ? "checked" : ""}> Annual (better margin after month one — default on)</label>
         <div class="grid cols-3" style="margin-top:14px">
-          <div class="card"><div class="kicker">$0</div><h3>Free</h3><p class="meta">10 questions/day, 1 profile, full diagnostic. Permanent. Not a starter SKU.</p><button class="btn ghost" data-plan="free">Stay free</button></div>
-          <div class="card"><div class="kicker">$4.99 / $39</div><h3>Essentials</h3><p class="meta">One subject.
-            <select id="ess-subj"><option>Math</option><option>Reading</option></select></p>
-            <button class="btn" data-plan="essentials">Choose Essentials</button></div>
-          <div class="card"><div class="kicker">$7.99 / $69</div><h3>Complete</h3><p class="meta">All subjects. Default recommendation. Family of 4.</p><button class="btn primary" data-plan="complete">Start Complete</button></div>
+          <div class="card"><div class="kicker">Free · v1</div><h3>Free</h3><p class="meta">Practice 1.0 ships free. Diagnostic + practice — no subscription required.</p><button class="btn primary" data-plan="free">Stay free</button></div>
+          <div class="card"><div class="kicker">Not in v1</div><h3>Essentials</h3><p class="meta">One subject. Paid plans are deferred — Brain Kit Practice 1.0 has no IAP.
+            <select id="ess-subj" disabled><option>Math</option><option>Reading</option></select></p>
+            <button class="btn" data-plan="essentials" disabled title="Practice 1.0 is free — no IAP">Unavailable in 1.0</button></div>
+          <div class="card"><div class="kicker">Not in v1</div><h3>Complete</h3><p class="meta">All subjects. Family of 4. Coming later — no App Store prices locked yet.</p><button class="btn" data-plan="complete" disabled title="Practice 1.0 is free — no IAP">Unavailable in 1.0</button></div>
         </div>
-        <p class="meta" style="margin-top:12px">Web = Stripe. iOS subscriptions must be IAP (Apple rejection if you use Stripe in-app). Entitlements sync later. Money stays simulated in this build.</p>
+        <p class="meta" style="margin-top:12px">Brain Kit Practice 1.0 ships free with no in-app purchases or subscriptions. Prototype dollar amounts were removed — do not invent ASC prices. StoreKit / Stripe purchase paths stay disabled until a later paid release. Money is not charged in this build.</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
-          <button class="btn" id="buy-iap">Pay with IAP</button>
-          <button class="btn" id="buy-stripe">Pay with Stripe</button>
-          <button class="btn" id="buy-testprep" ${sellTp ? "" : "disabled"}>Test Prep +$9.99${sellTp ? "" : " · not for grade 3"}</button>
-          <button class="btn ghost" id="buy-restore">Restore purchases</button>
-          <button class="btn ghost" id="buy-cancel">Cancel auto-renew</button>
+          <button class="btn" id="buy-iap" disabled title="No IAP in Practice 1.0">IAP (disabled in 1.0)</button>
+          <button class="btn" id="buy-stripe" disabled title="No Stripe checkout in Practice 1.0">Stripe (disabled in 1.0)</button>
+          <button class="btn" id="buy-testprep" disabled>Test Prep (not in 1.0)</button>
+          <button class="btn ghost" id="buy-restore" disabled>Restore purchases</button>
+          <button class="btn ghost" id="buy-cancel" disabled>Cancel auto-renew</button>
           <button class="btn ghost" id="buy-delete">Delete household account</button>
         </div>
         <p class="meta" id="buy-msg" style="margin-top:10px"></p>
@@ -1438,41 +1438,24 @@
           renderBilling();
           return;
         }
-        const res = BKBilling.checkout({
-          plan: planId,
-          interval: interval(),
-          subject: $("#ess-subj") ? $("#ess-subj").value : "Math",
-          provider: "stripe"
-        });
-        $("#buy-msg").textContent = res.ok ? res.plan.name + " via Stripe · $" + res.amount + " " + res.interval : res.reason;
+        /* Practice 1.0 ships free — no IAP/subscriptions; do not invent ASC prices. */
+        $("#buy-msg").textContent = "Practice 1.0 is free — paid plans and IAP are disabled (no ASC prices).";
       };
     });
     $("#buy-iap").onclick = () => {
-      const d = BKAccess.authorize("purchase", { studentId: ui.studentId });
-      if (!d.ok) { showGate(d); return; }
-      const res = BKBilling.checkout({ plan: "complete", interval: interval(), provider: "iap" });
-      $("#buy-msg").textContent = "IAP receipt · $" + res.amount + " " + res.interval + " (Apple 30%).";
+      $("#buy-msg").textContent = "Practice 1.0 is free — IAP is disabled until a later paid release.";
     };
     $("#buy-stripe").onclick = () => {
-      const d = BKAccess.authorize("purchase", { studentId: ui.studentId });
-      if (!d.ok) { showGate(d); return; }
-      const res = BKBilling.checkout({ plan: "complete", interval: interval(), provider: "stripe" });
-      $("#buy-msg").textContent = "Stripe receipt · $" + res.amount + " " + res.interval + ".";
+      $("#buy-msg").textContent = "Practice 1.0 is free — Stripe checkout is disabled.";
     };
     $("#buy-testprep").onclick = () => {
-      const d = BKAccess.authorize("purchase", { studentId: ui.studentId });
-      if (!d.ok) { showGate(d); return; }
-      const res = BKBilling.addTestPrep(BKStore.state.students, "iap");
-      $("#buy-msg").textContent = res.ok ? "Test Prep on. SAT/ACT/CLT/HSPT/SSAT for grades 8–12 only." : res.reason;
+      $("#buy-msg").textContent = "Practice 1.0 is free — Test Prep add-on is not sold in this release.";
     };
     $("#buy-restore").onclick = () => {
-      const res = BKBilling.restorePurchases();
-      $("#buy-msg").textContent = res.ok ? "Restored " + res.plan + " from the last " + res.provider + " receipt." : res.reason;
-      if (res.ok) renderBilling();
+      $("#buy-msg").textContent = "Practice 1.0 is free — nothing to restore (no IAP in this release).";
     };
     $("#buy-cancel").onclick = () => {
-      BKBilling.cancelRenew();
-      $("#buy-msg").textContent = "Auto-renew off. Practice continues through the paid window.";
+      $("#buy-msg").textContent = "Practice 1.0 is free — no auto-renew to cancel.";
     };
     $("#buy-delete").onclick = () => {
       const d = BKAccess.authorize("delete-account", { studentId: ui.studentId });
