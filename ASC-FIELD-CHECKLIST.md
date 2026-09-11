@@ -14,79 +14,59 @@ Support: **miketmarshall94@gmail.com**
 
 | Field | Value |
 | --- | --- |
-| Display name | **Brain Kit** (if taken: Brain Kit Practice) |
-| Bundle ID | `com.mikemarshall.brainkit` (registered Z2GY85Y999; IAP enabled) |
+| Display name | **Brain Kit Practice** (free v1) |
+| Bundle ID | `com.mikemarshall.brainkit` (registered Z2GY85Y999) |
 | SKU | `brainkit001` (immutable once created) |
 | Primary language | English (U.S.) |
 | Platforms | iOS |
 | User Access | Full Access |
 | Support email | miketmarshall94@gmail.com |
-| App Store Apple ID | `REPLACE_AFTER_ASC_CREATE` — paste numeric ID into `codemagic.yaml` |
+| App Store Apple ID | `6809647241` — confirm in `codemagic.yaml` |
 
 ### Categories (Mike confirms)
 
 | Field | Suggested | Notes |
 | --- | --- | --- |
 | Primary | **Education** | K–12 practice |
-| Secondary | Optional (e.g. Kids Category via Made for Kids) | **Mike confirms** |
-| Made for Kids | **Yes** if targeting Kids discovery | Ongoing Kids rules once chosen |
-| Kids age band | Mike picks one: **5 and under** / **6–8** / **9–11** | K–12 spans bands — pick the marketing sweet spot |
+| Secondary | Optional | **Mike confirms** |
+| Made for Kids | **Yes** (assumption for free v1 listing draft) | Ongoing Kids rules once chosen |
+| Kids age band | **6–8** (**assumption — Mike can override**) | K–12 spans bands; 6–8 is draft sweet spot |
 
 ---
 
 ## 2. Privacy / Terms / Support URLs
 
-| ASC field | Status |
+| ASC field | Value |
 | --- | --- |
-| Privacy Policy URL | **PLACEHOLDER** until live HTTPS |
-| Terms / EULA | **PLACEHOLDER** until live HTTPS (or Apple Standard EULA + live Terms) |
-| Support URL | **PLACEHOLDER** until live HTTPS; contact miketmarshall94@gmail.com |
+| Privacy Policy URL | https://muvmarshall.github.io/brain-kit-app-store/privacy.html |
+| Terms / EULA | https://muvmarshall.github.io/brain-kit-app-store/terms.html (and/or Apple Standard EULA) |
+| Support URL | https://muvmarshall.github.io/brain-kit-app-store/support.html |
+| Support email | miketmarshall94@gmail.com |
 
-Bundled `ios-wrap/www/{privacy,terms,support}.html` are **local PLACEHOLDER** pages for the Capacitor wrap. **Do not paste `file://` or Cap bundled paths into ASC.** Grok Build owns final live HTTPS pages before Submit.
+Served from GitHub Pages (`docs/` on this repo). Bundled `ios-wrap/www/{privacy,terms,support}.html` mirror the same content for the Capacitor wrap — **paste the HTTPS Pages URLs into ASC**, not `file://` paths.
 
-Marketing URL (optional): none yet (no Brain Kit grok.me host).
+Marketing URL (optional): none (do not reuse Brain Builder grok.me).
 
 ---
 
-## 3. IAP — Brain Kit Complete (prices NOT locked)
+## 3. In-App Purchase — FREE v1 = **No**
 
-### Subscription group
-
-| Field | Value |
+| Field | Free v1 answer |
 | --- | --- |
-| Group reference name | `Brain Kit Complete` |
-| App Store display name | `Brain Kit Complete` |
+| In-App Purchase | **No** |
+| Subscriptions | **None** in Practice 1.0 |
+| ASC IAP products | **Do not create** Complete/Essentials products for this version |
+| Prices | **Do not invent** dollar amounts |
 
-### Product A — Yearly
+Brain Kit Practice 1.0 ships free. Purchase CTAs are disabled for this release. A future “Complete” paid version (if any) is a separate decision — keep `$____` blanks and do not Submit IAP for free v1.
 
-| Field | Value |
-| --- | --- |
-| Product ID | `com.brainkit.complete.yearly` |
-| Reference name | Brain Kit Complete Yearly |
-| Duration | 1 Year |
-| Price | **Yearly $____** (TBD — Mike/Grok) |
-| Introductory offer | **trial ____** (days/period TBD — or none) |
-
-### Product B — Monthly
-
-| Field | Value |
-| --- | --- |
-| Product ID | `com.brainkit.complete.monthly` |
-| Reference name | Brain Kit Complete Monthly |
-| Duration | 1 Month |
-| Price | **Monthly $____** (TBD — Mike/Grok) |
-| Introductory offer | TBD with Mike/Grok |
-
-**Create ASC subscription products only after prices are approved.**  
-Prototype UI in `www/js/billing.js` / `www/js/app.js` still shows **unlocked prototype** amounts — those are **not** ASC-approved; do not copy them into ASC as locked prices.
-
-Parent gate required **before** purchase and **before** Restore. Production entitlement = StoreKit only (no preview unlock).
+Parent gate remains required **before** outbound external links.
 
 ---
 
 ## 4. Age Rating Questionnaire — DRAFT (Mike confirm)
 
-For **K–12 education practice**: levels/questions, on-device progress, planned IAP behind parental gate, **no** violence/gambling/mature themes planned for v1.
+For **K–12 education practice**: levels/questions, on-device progress, **no IAP in free v1**, parental gate for outbound links, **no** violence/gambling/mature themes planned for v1.
 
 > **DRAFT — Mike must confirm** against the shipping binary. Map intents to the **current** ASC questionnaire UI (it evolves).
 
@@ -105,8 +85,8 @@ For **K–12 education practice**: levels/questions, on-device progress, planned
 | User-generated content | Disclose if parents import custom content kids see | Verify importer / teacher tools |
 | Messaging / chat / social | No | — |
 | Advertising | **No** third-party ads planned for v1 | Revisit if house tips/ads added |
-| In-App Purchase | Yes — auto-renewable Complete (must ship before Submit) | Behind grown-up PIN |
-| Parental Controls | Yes — PIN / parental gate | Required for Kids purchases / link-outs |
+| In-App Purchase | **No** (Practice free v1) | Do not create ASC IAP for this version |
+| Parental Controls | Yes — PIN / parental gate | Required for Kids link-outs |
 | Age Assurance / kid accounts | No kid accounts required for core play | Confirm no sign-in SDKs for children |
 
 **Expected listing age rating:** typically **4+** for this profile — ASC computes from answers. **DRAFT for Mike confirm.**
@@ -121,7 +101,7 @@ Be honest. Prefer **Data Not Collected** for v1 **if** the binary stays local-on
 
 | Area | DRAFT | Notes |
 | --- | --- | --- |
-| Overall | Lean **Data Not Collected** for developer-collected data | OS / Apple may still handle crash logs & IAP billing |
+| Overall | Lean **Data Not Collected** for developer-collected data | OS / Apple may still handle crash logs; no IAP in free v1 |
 | Contact Info | No | No kid accounts |
 | Health & Fitness | No | — |
 | Location | No | No location plugins planned |
@@ -129,7 +109,7 @@ Be honest. Prefer **Data Not Collected** for v1 **if** the binary stays local-on
 | Identifiers / Tracking | No tracking; no ATT | Kids: no IDFA / cross-app tracking |
 | Usage Analytics | No 3P analytics planned for v1 | — |
 | Advertising Data | No 3P ads planned for v1 | — |
-| Purchases | Apple processes IAP when StoreKit ships | Declare per ASC “Purchases” help when Complete is live |
+| Purchases | **N/A for free v1** (no IAP) | Revisit if a paid Complete build ships later |
 | Diagnostics | Prefer none from our SDKs | Distinguish Apple OS crash logs vs our analytics |
 
 ### If remote host later (`REMOTE_URL`)
@@ -159,8 +139,8 @@ Upload **actual app UI**. Up to 10 per locale/device class.
 2. Child practice session (wrong-answer teach path)  
 3. Session end / on-device progress  
 4. Parent gate (PIN) — no real family PIN in art  
-5. Complete paywall **after** prices approved (show `$____` filled live values only)  
-6. Privacy / Support entry once live HTTPS exists  
+5. Privacy / Support entry (live GitHub Pages URLs)  
+6. **Skip Complete paywall** for free v1 screenshots (no IAP)  
 
 **Icon:** 1024×1024 ASC icon (create before Submit).
 
@@ -182,21 +162,19 @@ Upload **actual app UI**. Up to 10 per locale/device class.
 
 - [x] Bundle ID registered; SKU planned `brainkit001`
 - [x] Capacitor shell + StoreKit bridge stubs + Capgo dep pin
-- [ ] Replace prototype paywall `$` strings with approved amounts (or `$____` until approved)
-- [ ] Live HTTPS Privacy / Terms / Support
+- [x] Free v1: IAP = No (do not invent prices / do not create ASC IAP)
+- [x] Live HTTPS Privacy / Terms / Support (GitHub Pages `docs/`)
 - [ ] Screenshots + 1024 icon
-- [ ] Age rating + privacy labels Mike-confirmed
+- [ ] Age rating + privacy labels Mike-confirmed (Made for Kids **6–8** assumed)
 
 ### Blocked on Apple ID / ASC / Mac CI
 
 - [ ] ASC app record created (parent UI) → numeric Apple ID → `codemagic.yaml`
 - [ ] Codemagic app + **Brain Kit Codemagic** integration + signing
 - [ ] First TestFlight IPA
-- [ ] Capgo purchase calls wired on Codemagic Mac (`STOREKIT-NEXT.md`)
-- [ ] ASC Complete products after `$____` approved
-- [ ] Sandbox purchase + restore QA
-- [ ] Submit for Review
+- [ ] Capgo / StoreKit only if a future paid build is approved (not free v1)
+- [ ] Submit for Review (**Do NOT Submit** until Mike says go)
 
 ---
 
-*Brain Kit only. Prices: Yearly $____ · Monthly $____ · trial ____ — not locked. No BB IDs/prices.*
+*Brain Kit Practice FREE v1. In-App Purchase = **No**. No BB IDs/prices. Do not invent dollar amounts.*

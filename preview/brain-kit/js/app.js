@@ -367,7 +367,7 @@
             ${gradeNum >= 6 ? `<button class="btn ghost" id="edit-goals" style="margin-top:8px">Tonight’s goal</button> <button class="btn ghost" id="open-myhq" style="margin-top:8px">My HQ</button>` : ""}
             <div style="margin-top:10px">${queued ? "<strong>Queued from last session</strong><ul>" + queued + "</ul>" : "<span class='meta'>No prerequisite gaps queued.</span>"}</div>
             <p class="meta" style="margin-top:12px">Class code: <input id="join-code" placeholder="MAPLE7" style="width:90px"> <button class="btn ghost" id="join-class">Join</button></p>
-            <p class="meta" style="margin-top:12px">Help article (external): <a href="https://example.com/brain-kit-help" data-external="1">brain-kit help</a></p>
+            <p class="meta" style="margin-top:12px">Help article (external): <a href="https://muvmarshall.github.io/brain-kit-app-store/support.html" data-external="1">brain-kit help</a></p>
           </div>
         </div>
       </div>
@@ -1362,7 +1362,7 @@
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px">
           <button class="btn" id="set-profiles">${BKA11y.t("profiles")}</button>
           <button class="btn" id="set-billing">Subscription</button>
-          <a class="btn" data-external="1" href="https://example.com/privacy">Privacy policy (external)</a>
+          <a class="btn" data-external="1" href="https://muvmarshall.github.io/brain-kit-app-store/privacy.html">Privacy policy (external)</a>
         </div>
       </div>`;
     $("#set-dyslexia").checked = p.dyslexia;
