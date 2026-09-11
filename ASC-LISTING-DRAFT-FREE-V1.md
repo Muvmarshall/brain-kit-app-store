@@ -56,6 +56,6 @@ homework help,K-12,math practice,reading practice,IXL alternative,homeschool
 
 ## Still blocked for Submit (not for drafting)
 1. ~~Live HTTPS Privacy / Terms / Support~~ — done via GitHub Pages `docs/`
-2. 1024×1024 App Icon (brand) — Cap default until Mike supplies
+2. 1024×1024 App Icon (brand) — blocked until Mike supplies (do not invent / ship Cap placeholder art)
 3. Device screenshots (plan only in `ASC-FIELD-CHECKLIST.md` §6)
 4. Mike: confirm or override Made for Kids age band **6–8**
