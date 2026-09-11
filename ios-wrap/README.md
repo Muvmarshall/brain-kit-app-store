@@ -92,6 +92,19 @@ When adding Cap plugins on Codemagic, add a **short, honest** purpose string in 
 - Disclose remote hosting in Kids / Guideline 1.3 answers when you switch from bundled to remote
 - Thin wrappers get scrutiny (guidelines 4.2 / 4.7) — mitigate with real StoreKit, parental gate, polished WKWebView
 
+
+## App Icon
+
+Brand AppIcon is derived from Kit photos (no invented art):
+
+| Path | Role |
+| --- | --- |
+| `../assets/app-icon-1024.png` | ASC marketing 1024² (RGB, no alpha) |
+| `resources/AppIcon.appiconset/` | Xcode catalog template (single 1024) |
+| `scripts/apply-app-icon.sh` | CI: copy into `ios/App/App/Assets.xcassets/AppIcon.appiconset/` after `cap add/sync` |
+
+Regenerate: `python3 ../scripts/generate-app-icon.py` (Pillow). Codemagic runs `apply-app-icon.sh` in the “Ensure ios platform exists” step — safe if `ios/` already exists.
+
 ## Support
 
 miketmarshall94@gmail.com

@@ -67,6 +67,9 @@ workflows:
           bash scripts/patch-ios-deployment-target.sh ios/App
           npx cap sync ios
           bash scripts/patch-ios-deployment-target.sh ios/App
+          # AppIcon from Kit brand photo (opaque 1024; replaces Cap placeholder)
+          # Idempotent: no-op if ios/ missing; overwrites if Assets.xcassets exists.
+          bash scripts/apply-app-icon.sh
           # Privacy manifest stub (local-first)
           if [ -f PrivacyInfo.xcprivacy ] && [ -d ios/App/App ]; then
             cp -n PrivacyInfo.xcprivacy ios/App/App/PrivacyInfo.xcprivacy 2>/dev/null \
